@@ -4,3 +4,6 @@
   color: white;
 }
 
+a:hover, a:active {
+  text-decoration: line-through;
+}
