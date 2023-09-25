@@ -1,5 +1,10 @@
 a:hover, a:active {
   text-decoration: line-through;
+  color: rgba(var(--dark_400), 1);
+}
+
+a {
+  color: rgba(var(--dark_400), 1);
 }
 
 :root {
