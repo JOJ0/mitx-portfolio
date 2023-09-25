@@ -115,7 +115,7 @@ a:hover, a:active {
   --cyan_0: 255, 255, 255
 }
 
-.btn-primary {
+.btn-info {
   /* background-color: rgba(var(--purple_500), 1);*/
   background-color: rgba(var(--purple_500), 1);
 }
