@@ -7,6 +7,11 @@ a {
   color: rgba(var(--dark_400), 1);
 }
 
+.obfuscate {
+  unicode-bidi: bidi-override;
+  direction: rtl;
+}
+
 :root {
   --blue_900: 18, 20, 33;
   --blue_800: 35, 41, 67;
