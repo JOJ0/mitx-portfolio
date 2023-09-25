@@ -3,3 +3,6 @@ Submission.doc
 Criteria*
 .~lock.*
 Require*png
+.syncthing*
+.*swp
+*sync-conflict*
