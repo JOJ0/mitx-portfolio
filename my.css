@@ -136,3 +136,39 @@ a {
   height: 240px;
   margin-left: 1em;
 }
+
+body {
+  /*font-family: 'Spline Sans Mono', sans-serif;*/
+  font-family: 'AR One Sans', sans-serif;
+  font-weight: 400;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 500;
+  line-height: 1.4;
+  letter-spacing: 2.6px;
+}
+
+.card-body {
+  font-size: 1em;
+}
+
+.card-title {
+  letter-spacing: 0;
+  line-height: 1em;
+  font-size: 1em;
+  /*
+  */
+  font-family: 'Spline Sans Mono';
+}
+.card-text {
+  font-size: 0.8em;
+  /*
+  font-family: 'Spline Sans Mono';
+  */
+  font-family: 'AR One Sans', sans-serif;
+}
+
+.card-body a {
+  font-size: 0.8em;
+}
