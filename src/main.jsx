@@ -8,6 +8,8 @@ import Home from './Home.jsx'
 import Projects from './Projects.jsx'
 // Import our SCSS (which contains bootstrap stuff!)
 import './main.scss'
+// Import additinoal (plain) CSS
+import './main.css'
 // Import all of Bootstrap's JS
 import * as bootstrap from 'bootstrap'
 

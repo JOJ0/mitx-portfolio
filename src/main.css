@@ -5,7 +5,6 @@
   padding: 2rem;
   text-align: center;
 }
-*/
 
 .logo {
   height: 6em;
@@ -42,15 +41,16 @@
 .read-the-docs {
   color: #888;
 }
+*/
 
 /* My styles from original project (my.css) */
 /* and only those actually used */
-a:hover, a:active {
-  text-decoration: line-through;
+a {
   color: rgba(var(--dark_400), 1);
 }
 
-a {
+a:hover, a:active {
+  text-decoration: line-through;
   color: rgba(var(--dark_400), 1);
 }
 
