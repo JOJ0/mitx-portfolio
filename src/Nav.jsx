@@ -1,3 +1,5 @@
+import { NavLink } from 'react-router-dom'
+
 function Nav() {
 
   return (
@@ -16,10 +18,10 @@ function Nav() {
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav" id="navbarList">
             <li className="nav-item">
-              <a className="nav-link active" href="/">Home</a>
+              <NavLink className="nav-link" to="/">Home</NavLink>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="/projects">Projects</a>
+              <NavLink className="nav-link" to="/projects">Projects</NavLink>
             </li>
           </ul>
         </div>
