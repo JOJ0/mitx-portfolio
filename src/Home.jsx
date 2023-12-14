@@ -1,15 +1,12 @@
-
+import Page from './components/Page.jsx'
 
 function Home() {
+  const content = (
+    <></>
+  )
 
   return (
-    <>
-      <div className="row">
-          <div className="col-12">
-            <h1 className="mt-3">Bio</h1>
-          </div>
-      </div>
-    </>
+    <Page title="Bio" content={content} />
   )
 }
 
