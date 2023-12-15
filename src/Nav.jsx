@@ -20,9 +20,20 @@ function Nav() {
             <li className="nav-item">
               <NavLink className="nav-link" to="/">Home</NavLink>
             </li>
-            <li className="nav-item">
-              <NavLink className="nav-link" to="/projects">Projects</NavLink>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Projects
+              </a>
+
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li>
+                  <NavLink className="nav-link" to="/cvdev">Open Source</NavLink>
+                  <NavLink className="nav-link" to="/cvdev">Exercising</NavLink>
+                </li>
+              </ul>
             </li>
+
             <li className="nav-item">
               <NavLink className="nav-link" to="/cvdev">CV.dev</NavLink>
             </li>
