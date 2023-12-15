@@ -23,6 +23,15 @@ function Nav() {
             <li className="nav-item">
               <NavLink className="nav-link" to="/projects">Projects</NavLink>
             </li>
+            <li className="nav-item">
+              <NavLink className="nav-link" to="/cvdev">CV.dev</NavLink>
+            </li>
+            <li className="nav-item">
+              <NavLink className="nav-link" to="/cvops">CV.ops</NavLink>
+            </li>
+            <li className="nav-item">
+              <NavLink className="nav-link" to="/cvart">CV.art</NavLink>
+            </li>
           </ul>
         </div>
 
