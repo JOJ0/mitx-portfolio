@@ -18,7 +18,7 @@ function Nav() {
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav" id="navbarList">
             <li className="nav-item">
-              <NavLink className="nav-link" to="/">Home</NavLink>
+              <NavLink className="nav-link" to="/">Bio</NavLink>
             </li>
 
             <li class="nav-item dropdown">
