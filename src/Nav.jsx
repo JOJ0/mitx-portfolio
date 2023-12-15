@@ -28,8 +28,8 @@ function Nav() {
 
               <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                 <li>
-                  <NavLink className="nav-link" to="/cvdev">Open Source</NavLink>
-                  <NavLink className="nav-link" to="/cvdev">Exercising</NavLink>
+                  <NavLink className="nav-link" to="/projects-foss">Open Source</NavLink>
+                  <NavLink className="nav-link" to="/projects-exercise">Exercising</NavLink>
                 </li>
               </ul>
             </li>
