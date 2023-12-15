@@ -34,15 +34,21 @@ function Nav() {
               </ul>
             </li>
 
-            <li className="nav-item">
-              <NavLink className="nav-link" to="/cvdev">CV.dev</NavLink>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              CV
+              </a>
+
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li>
+                  <NavLink className="nav-link" to="/cvdev">CV.dev</NavLink>
+                  <NavLink className="nav-link" to="/cvops">CV.ops</NavLink>
+                  <NavLink className="nav-link" to="/cvart">CV.art</NavLink>
+                </li>
+              </ul>
             </li>
-            <li className="nav-item">
-              <NavLink className="nav-link" to="/cvops">CV.ops</NavLink>
-            </li>
-            <li className="nav-item">
-              <NavLink className="nav-link" to="/cvart">CV.art</NavLink>
-            </li>
+
+
           </ul>
         </div>
 
