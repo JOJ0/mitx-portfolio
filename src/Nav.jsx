@@ -31,6 +31,7 @@ function Nav() {
                 <li>
                   <NavLink className="nav-link" to="/projects/foss">Open-source</NavLink>
                   <NavLink className="nav-link" to="/projects/exercise">Exercise</NavLink>
+                  <NavLink className="nav-link" to="/projects/tool">Tool</NavLink>
                 </li>
               </ul>
             </li>
