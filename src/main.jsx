@@ -5,7 +5,6 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom'
 // App entry point
 import App from './App.jsx'
 import Home from './Home.jsx'
-import Projects from './Projects.jsx'
 import ProjectsExercise from './ProjectsExercise.jsx'
 import ProjectsFoss from './ProjectsFoss.jsx'
 import CvDev from './CvDev.jsx'

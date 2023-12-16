@@ -2,11 +2,12 @@ import Page from './components/Page.jsx'
 import Card from './components/Card.jsx'
 
 function ProjectsFoss() {
+  const title = "Projects.open-source"
   const content = (
     <>
     <div className="row">
       <p>
-      Open Source projects I'm involved with.
+      (Free and) open-source software projects I'm involved with.
       </p>
     </div>
     <div className="row">
@@ -88,7 +89,7 @@ function ProjectsFoss() {
   );
 
   return (
-    <Page title="Projects.OpenSource" content={content} />
+    <Page title={title} content={content} />
   )
 }
 
