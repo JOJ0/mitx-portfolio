@@ -24,10 +24,8 @@ ReactDOM.createRoot(document.getElementById('root')).render(
       <Routes>
         <Route path="/" element={<App />}>
           <Route index element={<Home />}/>
-          <Route path="/projects" element={<Projects />}>
-            <Route path="/projects-foss" element={<ProjectsFoss />}/>
-            <Route path="/projects-exercise" element={<ProjectsExercise />}/>
-          </Route>
+          <Route path="/projects/foss" element={<ProjectsFoss />}/>
+          <Route path="/projects/exercise" element={<ProjectsExercise />}/>
           <Route path="/cvdev" element={<CvDev />}/>
           <Route path="/cvops" element={<CvOps />}/>
           <Route path="/cvart" element={<CvArt />}/>

@@ -1,4 +1,5 @@
 import { NavLink } from 'react-router-dom'
+import logo_jt_svg from '~assets/jt_noframe_bigger02_grey80_NoBack_center.svg'
 
 function Nav() {
 
@@ -8,7 +9,7 @@ function Nav() {
       <div className="container-sm">
 
         <span className="navbar-brand">
-          <img src="src/assets/jt_noframe_bigger02_grey80_NoBack_center.svg" alt="" width="35" height="35" />
+          <img src={logo_jt_svg} alt="" width="35" height="35" />
         </span>
 
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -28,8 +29,8 @@ function Nav() {
 
               <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                 <li>
-                  <NavLink className="nav-link" to="/projects-foss">Open Source</NavLink>
-                  <NavLink className="nav-link" to="/projects-exercise">Exercising</NavLink>
+                  <NavLink className="nav-link" to="/projects/foss">Open Source</NavLink>
+                  <NavLink className="nav-link" to="/projects/exercise">Exercising</NavLink>
                 </li>
               </ul>
             </li>
