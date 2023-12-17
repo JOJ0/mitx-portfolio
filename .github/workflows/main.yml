@@ -37,6 +37,8 @@ jobs:
           cache: 'npm'
       - name: Install dependencies
         run: npm install
+      - name: Install rollup
+        run: npm install rollup
       - name: Build
         run: npm run build
       - name: Setup Pages
