@@ -19,19 +19,17 @@ import './main.css'
 import * as bootstrap from 'bootstrap'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-  <React.StrictMode>
-    <BrowserRouter /* basename="/app" */>
-      <Routes>
-        <Route path="/" element={<App />}>
-          <Route index element={<Home />}/>
-          <Route path="/projects/foss" element={<ProjectsFoss />}/>
-          <Route path="/projects/exercise" element={<ProjectsExercise />}/>
-          <Route path="/projects/tool" element={<ProjectsTool />}/>
-          <Route path="/cvdev" element={<CvDev />}/>
-          <Route path="/cvops" element={<CvOps />}/>
-          <Route path="/cvart" element={<CvArt />}/>
-        </Route>
-      </Routes>
-    </BrowserRouter>
-  </React.StrictMode>,
+  <BrowserRouter /* basename="/app" */>
+    <Routes>
+      <Route path="/" element={<App />}>
+        <Route index element={<Home />}/>
+        <Route path="/projects/foss" element={<ProjectsFoss />}/>
+        <Route path="/projects/exercise" element={<ProjectsExercise />}/>
+        <Route path="/projects/tool" element={<ProjectsTool />}/>
+        <Route path="/cvdev" element={<CvDev />}/>
+        <Route path="/cvops" element={<CvOps />}/>
+        <Route path="/cvart" element={<CvArt />}/>
+      </Route>
+    </Routes>
+  </BrowserRouter>
 )
