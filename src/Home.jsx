@@ -23,6 +23,18 @@ function Home() {
         </div>
       </div>
     </div>
+    <div class="row">
+      <div class="col">
+        <h2>Anything else?</h2>
+          <div class="video">
+            <iframe src="https://www.youtube.com/embed/OP_XRUfLK64?si=lHc7h34amocETwSI" title="JT's portfolio video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+            </iframe>
+          </div>
+        <p>
+          The initial idea of providing a video describing myself was thrown into disarray. Instead I'll try to highlight other qualities of my personality by presenting this video-rework of mine. It showcases my love for oldschool game aesthetics, music production, DJing and outstanding open-source tools like <a href="https://www.blender.org/">Blender</a>. Sound-FX overdubbing and the drum loop you hear at the very end was done with Ableton Live, video cutting and text animations in Blender.
+        </p>
+      </div>
+    </div>
 
     </>
   )
