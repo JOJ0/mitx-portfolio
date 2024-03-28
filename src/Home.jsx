@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom'
 import Page from './components/Page.jsx'
-import portrait01 from '~assets/portrait.png'
+import portrait01 from '~assets/GIFace_03-28-2024_13-48_8fps.gif'
 
 function Home() {
   const content = (
