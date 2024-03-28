@@ -31,3 +31,4 @@ Require*png
 .syncthing*
 .*swp
 *sync-conflict*
+.vite/
