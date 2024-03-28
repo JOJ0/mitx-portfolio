@@ -8,7 +8,7 @@ function Home() {
     <div class="row">
       <div class="col-12">
         <div>
-          <img class="rounded float-start me-3 w-25" src={portrait01} alt="Portrait Picture" />
+          <img class="rounded float-start me-3 w-15" src={portrait01} alt="Portrait Picture" />
         </div>
         <div>
           <p class="">
