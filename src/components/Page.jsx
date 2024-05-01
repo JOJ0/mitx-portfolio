@@ -5,7 +5,7 @@ function Page({title, content}) {
     <>
       <div className="row">
         <div className="col-sm-12">
-          <h1 className="mt-3">{title}</h1>
+          <h1 className="font-weight-light text-muted py-3">{title}</h1>
         </div>
       </div>
       {content}
