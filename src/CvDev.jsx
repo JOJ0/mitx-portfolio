@@ -5,8 +5,6 @@ function CvDev() {
   const content = (
   <>
     <div className="container py-4">
-    <h2 className="font-weight-light text-center text-muted py-3">Cv.dev timeline</h2>
-
     
     <div className="row">
 
