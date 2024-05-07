@@ -1,7 +1,7 @@
 function TimelineEntry(props) {
 
   return(
-        <div className="col py-2">
+        <div className="col-sm-2 py-2">
 
             <div className={props.highlight ? "card border-success shadow" : "card"}>
                 <div className="card-body">

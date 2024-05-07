@@ -6,8 +6,6 @@ import TimelineBullet from './components/TimelineBullet.jsx';
 function CvDev() {
   const content = (
   <>
-    <div className="container py-4">
-    
     <div className="row">
         <TimelineBullet caption="1995-1997" />
         <TimelineEntry topic="MS-DOS Batch" descr="" topright="" />
@@ -26,10 +24,6 @@ function CvDev() {
         <TimelineEntry topic="PHP" descr="" topright="" />
 
     </div>
-
-</div>
-
-
   </>
   )
 
