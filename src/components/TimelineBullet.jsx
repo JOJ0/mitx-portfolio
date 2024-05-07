@@ -9,7 +9,7 @@ function TimelineBullet(props) {
             </div>
 
             <h5 className="m-2">
-                <span className="badge rounded-pill bg-success">{props.caption}</span>
+                <span className={props.highlight ? "badge rounded-pill bg-success" : "badge rounded-pill bg-success"}>{props.caption}</span>
             </h5>
 
             <div className="row h-50">

@@ -26,9 +26,9 @@ function CvDev() {
 
 
     <div className="row">
-        <TimelineBullet caption="1998" highlight="yes" />
-        <TimelineEntry topic="MS-DOS Batch" descr="" topright="" highlight="yes" />
-        <TimelineEntry topic="Bash" descr="" topright="" highlight="yes" />
+        <TimelineBullet caption="1998" highlight={false} />
+        <TimelineEntry topic="MS-DOS Batch" descr="" topright="" highlight={false} />
+        <TimelineEntry topic="Bash" descr="" topright="" highlight={false} />
     </div>
 
 
