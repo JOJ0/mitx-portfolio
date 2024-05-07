@@ -9,33 +9,21 @@ function CvDev() {
     <div className="container py-4">
     
     <div className="row">
-        <TimelineBullet caption="1995" />
+        <TimelineBullet caption="1995-1997" />
         <TimelineEntry topic="MS-DOS Batch" descr="" topright="" />
     </div>
 
     <div className="row">
-
-        <TimelineBullet caption="1996" />
-        <TimelineEntry topic="MS-DOS Batch" descr="" topright="" />
-    </div>
-
-    <div className="row">
-        <TimelineBullet caption="1997" />
-        <TimelineEntry topic="MS-DOS Batch" descr="" topright="" />
-    </div>
-
-
-    <div className="row">
-        <TimelineBullet caption="1998" highlight={false} />
+        <TimelineBullet caption="1998-1999" highlight={false} />
         <TimelineEntry topic="MS-DOS Batch" descr="" topright="" highlight={false} />
         <TimelineEntry topic="Bash" descr="" topright="" highlight={false} />
+        <TimelineEntry topic="HTML/CSS" descr="" topright="" highlight={false} />
     </div>
 
 
     <div className="row">
-        <TimelineBullet caption="1999" />
-        <TimelineEntry topic="MS-DOS Batch" descr="" topright="" />
-        <TimelineEntry topic="Bash" descr="" topright="" />
+        <TimelineBullet caption="2000" />
+        <TimelineEntry topic="PHP" descr="" topright="" />
 
     </div>
 

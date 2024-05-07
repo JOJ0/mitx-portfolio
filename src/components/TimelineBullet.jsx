@@ -1,7 +1,7 @@
 function TimelineBullet(props) {
 
   return(
-        <div className="col-auto text-center flex-column d-none d-sm-flex">
+        <div className="col-sm-3 text-center flex-column d-none d-sm-flex">
 
             <div className="row h-50">
                 <div className="col">&nbsp;</div>
