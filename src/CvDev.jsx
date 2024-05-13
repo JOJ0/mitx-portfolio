@@ -8,7 +8,7 @@ function CvDev() {
   <>
     <div className="row">
         <TimelineBullet caption="1995-1997" />
-        <TimelineEntry topic="MS-DOS Batch" descr="" topright="" />
+        <TimelineEntry topic="MS-DOS Batch" descr="" topright="" image="microsoft.svg"/>
     </div>
 
     <div className="row">
