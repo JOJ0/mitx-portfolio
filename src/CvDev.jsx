@@ -1,6 +1,7 @@
 import Page from './components/Page.jsx';
 import TimelineEntry from './components/TimelineEntry.jsx';
 import TimelineBullet from './components/TimelineBullet.jsx';
+import logo_microsoft from '~assets/microsoft.svg';
 
 
 function CvDev() {
@@ -8,7 +9,7 @@ function CvDev() {
   <>
     <div className="row">
         <TimelineBullet caption="1995-1997" />
-        <TimelineEntry topic="MS-DOS Batch" descr="" topright="" image="microsoft.svg"/>
+        <TimelineEntry topic="MS-DOS Batch" descr="" topright="" image="logo_microsoft"/>
     </div>
 
     <div className="row">
