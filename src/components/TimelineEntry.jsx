@@ -8,7 +8,7 @@ function TimelineEntry(props) {
                     <div className={props.highlight ? "float-end text-success" : "float-end text-muted"} >{ props.topright }</div>
                     <h4 className={props.highlight ? "card-title text-success" : "card-title text-muted"}>{ props.topic }</h4>
                     <p className="card-text">{ props.descr }</p>
-                    <img className="" src={ props.image } />
+                    <img className="img-fluid" src={ props.image } />
                 </div>
             </div>
         </div>
