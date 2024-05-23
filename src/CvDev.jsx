@@ -2,6 +2,7 @@ import Page from './components/Page.jsx';
 import TimelineEntry from './components/TimelineEntry.jsx';
 import TimelineBullet from './components/TimelineBullet.jsx';
 import logo_ms from '~assets/microsoft.svg';
+import logo_py from '~assets/python.svg';
 
 
 function CvDev() {
@@ -25,6 +26,10 @@ function CvDev() {
         <TimelineBullet caption="2000" />
         <TimelineEntry topic="PHP" descr="" topright="" />
 
+    </div>
+        <div className="row">
+        <TimelineBullet caption="2016" />
+        <TimelineEntry topic="Python" image={ logo_py } />
     </div>
   </>
   )

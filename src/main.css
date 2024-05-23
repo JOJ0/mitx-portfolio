@@ -84,7 +84,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .card {
-  width: 5rem;
+  width: 10rem;
+}
+.card-timeline {
+  width: 70px;
 }
 .card-body {
   font-size: 1em;
