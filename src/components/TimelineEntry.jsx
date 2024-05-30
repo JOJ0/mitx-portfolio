@@ -1,7 +1,7 @@
 function TimelineEntry(props) {
 
   return(
-    <div className="col py-2 border">
+    <div className="col-auto py-2 border">
       <div className={props.highlight ? "card card-timeline border-success shadow" : "card card-timeline"}>
         <img className="card-img-top" src={ props.image } width="32" height="32" />
         <div className="card-body p-2 border">
