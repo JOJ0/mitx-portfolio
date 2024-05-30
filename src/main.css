@@ -93,11 +93,14 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 1em;
 }
 .card-title {
-  font-size: 0.6em;
+  font-size: 1em;
   font-weight: 700;
   line-height: 1.0;
   letter-spacing: 0px;
   font-family: 'Spline Sans Mono';
+}
+.card-title-timeline {
+  font-size: 0.6em;
 }
 .card-text {
   font-size: 0.8em;
