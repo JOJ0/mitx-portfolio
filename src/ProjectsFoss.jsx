@@ -78,7 +78,7 @@ function ProjectsFoss() {
           text="A beets plugin that remembers where files where files originally where stored on disk"
           repo="https://github.com/JOJ0/beets-dirfields"
           run=""
-          docs="ttps://github.com/JOJ0/beets-dirfields/blob/master/README.md"
+          docs="https://github.com/JOJ0/beets-dirfields/blob/master/README.md"
           website=""
           language="Python"
           members="1"
