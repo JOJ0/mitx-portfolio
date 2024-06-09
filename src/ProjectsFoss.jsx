@@ -2,7 +2,7 @@ import Page from './components/Page.jsx'
 import Card from './components/Card.jsx'
 
 function ProjectsFoss() {
-  const title = "Projects.open-source"
+  const title = "Projects.FOSS"
   const content = (
     <>
     <div className="row">
