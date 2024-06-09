@@ -11,7 +11,7 @@ function ProjectsFoss() {
       </p>
     </div>
     <div className="row">
-      <div className="col-sm-4">
+      <div className="col-sm-2">
         <Card
           title="synadm"
           text="The Admin CLI for Synapse (a communication server based on the Matrix specification)"
@@ -22,7 +22,7 @@ function ProjectsFoss() {
           members="3"
         />
       </div>
-      <div className="col-sm-4">
+      <div className="col-sm-2">
         <Card
           title="python3-discogs-client"
           text="The Python library for accessing the Discogs API (the worlds [probably] largest free online database and marketplace of music releases"
@@ -34,7 +34,7 @@ function ProjectsFoss() {
           members="4"
         />
       </div>
-      <div className="col-sm-4">
+      <div className="col-sm-2">
         <Card
           title="beets"
           text="A sophsticated media file tagger and music library manager written in Python"
@@ -48,7 +48,7 @@ function ProjectsFoss() {
       </div>
     </div>
     <div className="row">
-      <div className="col-sm-4">
+      <div className="col-sm-2">
         <Card
           title="DiscoDOS"
           text="A CLI tool for DJ's and record collectors based on the discogs.com collection feature"
@@ -60,7 +60,7 @@ function ProjectsFoss() {
           members="1"
         />
       </div>
-      <div className="col-sm-4">
+      <div className="col-sm-2">
         <Card
           title="beets-xtractor"
           text="A beets plugin based on the Essentia project of Barcelona's <em>Universitat Pompeu Fabra</em>"
@@ -72,7 +72,7 @@ function ProjectsFoss() {
           members="2"
         />
       </div>
-      <div className="col-sm-4">
+      <div className="col-sm-2">
         <Card
           title="beets-dirfields"
           text="A beets plugin that remembers where files where files originally where stored on disk"
