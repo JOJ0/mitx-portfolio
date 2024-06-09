@@ -11,7 +11,7 @@ function ProjectsFoss() {
       </p>
     </div>
     <div className="row">
-      <div className="col-md-4 col-sm-4 col-xs-6">
+      <div className="col-6 col-md-4">
         <Card
           title="synadm"
           text="The Admin CLI for Synapse (a communication server based on the Matrix specification)"
@@ -22,7 +22,7 @@ function ProjectsFoss() {
           members="3"
         />
       </div>
-      <div className="col-md-4 col-sm-4 col-xs-6">
+      <div className="col-6 col-md-4">
         <Card
           title="python3-discogs-client"
           text="The Python library for accessing the Discogs API (the worlds [probably] largest free online database and marketplace of music releases"
@@ -34,7 +34,7 @@ function ProjectsFoss() {
           members="4"
         />
       </div>
-      <div className="col-md-4 col-sm-4 col-xs-6">
+      <div className="col-6 col-md-4">
         <Card
           title="beets"
           text="A sophsticated media file tagger and music library manager written in Python"
