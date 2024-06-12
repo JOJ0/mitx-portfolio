@@ -46,8 +46,6 @@ function ProjectsFoss() {
           members="30+"
         />
       </div>
-    </div>
-    <div className="row">
       <div className="col-6 col-sm-4 col-md-3">
         <Card
           title="DiscoDOS"
