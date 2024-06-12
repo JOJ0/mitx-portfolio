@@ -73,7 +73,7 @@ function ProjectsFoss() {
       <div className="col-6 col-sm-4 col-md-3">
         <Card
           title="beets-dirfields"
-          text="A beets plugin that remembers where files where files originally where stored on disk"
+          text="A beets plugin that remembers where files where originally stored on disk"
           repo="https://github.com/JOJ0/beets-dirfields"
           run=""
           docs="https://github.com/JOJ0/beets-dirfields/blob/master/README.md"
