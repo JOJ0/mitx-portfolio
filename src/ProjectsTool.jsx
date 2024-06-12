@@ -2,7 +2,7 @@ import Page from './components/Page.jsx'
 import Card from './components/Card.jsx'
 
 function ProjectsTool() {
-  const title = "Projects.tool"
+  const title = "Projects.Tool"
   const content = (
     <>
     <div className="row">

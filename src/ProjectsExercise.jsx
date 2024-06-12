@@ -2,7 +2,7 @@ import Page from './components/Page.jsx'
 import Card from './components/Card.jsx'
 
 function ProjectsExercise() {
-  const title = "Projects.exercise"
+  const title = "Projects.Exercise"
   const content = (
     <>
     <div className="row">
