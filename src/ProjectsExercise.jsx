@@ -12,7 +12,7 @@ function ProjectsExercise() {
     </div>
 
     <div className="row">
-      <div className="col-sm-4">
+      <div className="col-6 col-sm-4 col-md-3">
         <Card
           title="PacMen Exercise"
           text="Generates PacMen that auto-move around the screen."
@@ -21,7 +21,7 @@ function ProjectsExercise() {
           language="JavaScript/HTML/CSS"
         />
       </div>
-      <div className="col-sm-4">
+      <div className="col-6 col-sm-4 col-md-3">
         <Card
           title="Eye Exercise"
           text="Like Xwindows Xeyes, but in the web browser"
@@ -32,7 +32,7 @@ function ProjectsExercise() {
           language="JavaScript/HTML/CSS"
         />
       </div>
-      <div className="col-sm-4">
+      <div className="col-6 col-sm-4 col-md-3">
         <Card
           title="Real Time Bus Tracker Exercise"
           text="Watch where busses currently are driving in Boston/Massachusetts on an embedded Google Map."
@@ -43,9 +43,7 @@ function ProjectsExercise() {
           language="JavaScript/HTML/CSS"
         />
       </div>
-    </div>
-    <div className="row">
-      <div className="col-sm-4">
+      <div className="col-6 col-sm-4 col-md-3">
         <Card
           title="Bad Bank Exercise"
           text="Using React components to build a website for an imaginary bank"

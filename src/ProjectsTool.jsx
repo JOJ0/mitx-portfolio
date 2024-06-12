@@ -12,7 +12,7 @@ function ProjectsTool() {
     </div>
 
     <div className="row">
-      <div className="col-sm-4">
+      <div className="col-6 col-sm-4 col-md-3">
         <Card
           title="Jekyll Helpers"
           text="Helpers to generate picture galleries for Jekyll based websites/blogs"
@@ -21,7 +21,7 @@ function ProjectsTool() {
           language="Bash/Zsh/Python"
         />
       </div>
-      <div className="col-sm-4">
+      <div className="col-6 col-sm-4 col-md-3">
         <Card
           title="Transaction Cutter"
           text="Cuts out the relevant pieces of transaction CSV files of a certain bank or PayPal - my first Python project ever :-O"
@@ -30,7 +30,7 @@ function ProjectsTool() {
           language="Python"
         />
       </div>
-      <div className="col-sm-4">
+      <div className="col-6 col-sm-4 col-md-3">
         <Card
           title="Audio Utils"
           text="Shell scripts to mass-manipulate audio and video files"
@@ -39,9 +39,7 @@ function ProjectsTool() {
           language="Bash/Zsh"
         />
       </div>
-    </div>
-    <div className="row">
-      <div className="col-sm-4">
+      <div className="col-6 col-sm-4 col-md-3">
         <Card
           title="Mailchimp Members"
           text="Unpacks a mailchimp members list zip file, filters columns and writes new csv file"
@@ -50,7 +48,7 @@ function ProjectsTool() {
           language="Python"
         />
       </div>
-      <div className="col-sm-4">
+      <div className="col-6 col-sm-4 col-md-3">
         <Card
           title="GitHub Projects Util"
           text='Uses PyGithub to retrieve "GitHub Project" (aka kanban) cards'
@@ -59,7 +57,7 @@ function ProjectsTool() {
           language="Python"
         />
       </div>
-      <div className="col-sm-4">
+      <div className="col-6 col-sm-4 col-md-3">
         <Card
           title="MPC 1000 Sequence Util"
           text="CLI utility to manipulate sequence files of an AKAI MPC 1000 sampler device"
@@ -68,9 +66,7 @@ function ProjectsTool() {
           language="Python"
         />
       </div>
-    </div>
-    <div className="row">
-      <div className="col-sm-4">
+      <div className="col-6 col-sm-4 col-md-3">
         <Card
           title='APC mini Controller Script'
           text='Ableton Live 9.x controller script for the "Akai MPC mini"'
