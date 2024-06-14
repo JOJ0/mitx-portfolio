@@ -5,8 +5,9 @@ import projects from './db_projects.json'
 
 function ProjectsExercise() {
   const title = "Projects.Exercise";
-  const Cols = () => {
-    const cols = projects.exercise.map((col, index) => {
+
+  const CardColumns = () => {
+    const cols = projects["exercise"].map((col, index) => {
       return (
         <div key={index} className="col-6 col-sm-4 col-md-3">
           <Card
@@ -31,7 +32,7 @@ function ProjectsExercise() {
     </div>
 
     <div className="row">
-      <Cols />
+      <CardColumns />
     </div>
     </>
   );
