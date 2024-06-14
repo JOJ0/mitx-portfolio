@@ -1,27 +1,10 @@
 import Page from './components/Page.jsx'
-import Card from './components/Card.jsx'
+import { Card, CardColumns } from './components/Card.jsx'
 import projects from './db_projects.json'
 
 
 function ProjectsExercise() {
   const title = "Projects.Exercise";
-
-  const CardColumns = () => {
-    const cols = projects["exercise"].map((col, index) => {
-      return (
-        <div key={index} className="col-6 col-sm-4 col-md-3">
-          <Card
-            title={col.title}
-            text={col.text}
-            repo={col.repo}
-            run={col.run}
-            language={col.language}
-          />
-        </div>
-      );
-    });
-    return cols;
-  };
 
   const content = (
     <>
@@ -32,7 +15,7 @@ function ProjectsExercise() {
     </div>
 
     <div className="row">
-      <CardColumns />
+      <CardColumns cardsList={projects["exercise"]}/>
     </div>
     </>
   );

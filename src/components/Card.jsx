@@ -1,4 +1,4 @@
-function Card(props) {
+export function Card(props) {
 
   return(
     <div className="card mb-3" width="10px">
@@ -20,5 +20,24 @@ function Card(props) {
     </div>
   )
 }
+
+
+export const CardColumns = (props) => {
+  const cols = props.cardsList.map((col, index) => {
+    return (
+      <div key={index} className="col-6 col-sm-4 col-md-3">
+        <Card
+          title={col.title}
+          text={col.text}
+          repo={col.repo}
+          run={col.run}
+          language={col.language}
+        />
+      </div>
+    );
+  });
+  return cols;
+};
+
 
 export default Card;
