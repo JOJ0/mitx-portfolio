@@ -37,14 +37,113 @@
   ],
   "foss": [
     {
+      "title": "synadm",
+      "text": "The Admin CLI for Synapse (a communication server based on the Matrix specification)",
+      "repo": "https://github.com/JOJ0/synadm",
+      "run": "",
+      "docs": "https://synadm.readthedocs.io",
+      "website": "",
+      "members": "3"
     },
     {
+      "title": "python3-discogs-client",
+      "text": "The Python library for accessing the Discogs API (the worlds [probably] largest free online database and marketplace of music releases",
+      "repo": "https://github.com/joalla/discogs_client",
+      "run": "",
+      "docs": "https://python3-discogs-client.readthedocs.io",
+      "website": "",
+      "language": "Python",
+      "members": "4"
+    },
+    {
+      "title": "beets",
+      "text": "A sophsticated media file tagger and music library manager written in Python",
+      "repo": "https://github.com/beetbox/beets",
+      "run": "",
+      "docs": "https://beets.readthedocs.io/en/latest",
+      "website": "https://beets.io",
+      "language": "Python",
+      "members": "30+"
+    },
+    {
+      "title": "DiscoDOS",
+      "text": "A CLI tool for DJ's and record collectors based on the discogs.com collection feature",
+      "repo": "https://github.com/JOJ0/discodos",
+      "run": "",
+      "docs": "https://discodos.readthedocs.io",
+      "website": "https://discodos.jojotodos.net",
+      "language": "Python",
+      "members": "1"
+    },
+    {
+      "title": "beets-xtractor",
+      "text": "A beets plugin based on the Essentia project of Barcelona's Universitat Pompeu Fabra",
+      "repo": "https://github.com/adamjakab/BeetsPluginXtractor",
+      "run": "",
+      "docs": "https://github.com/adamjakab/BeetsPluginXtractor/blob/master/README.md",
+      "website": "",
+      "language": "Python",
+      "members": "2"
+    },
+    {
+      "title": "beets-dirfields",
+      "text": "A beets plugin that remembers where files where originally stored on disk",
+      "repo": "https://github.com/JOJ0/beets-dirfields",
+      "run": "",
+      "docs": "https://github.com/JOJ0/beets-dirfields/blob/master/README.md",
+      "website": "",
+      "language": "Python",
+      "members": "1"
     }
   ],
   "tool": [
     {
+      "title": "Jekyll Helpers",
+      "text": "Helpers to generate picture galleries for Jekyll based websites/blogs",
+      "repo": "https://github.com/JOJ0/jekyll-helpers",
+      "run": "",
+      "language": "Bash/Zsh/Python"
     },
     {
+      "title": "Transaction Cutter",
+      "text": "Cuts out the relevant pieces of transaction CSV files of a certain bank or PayPal - my first Python project ever :-O",
+      "repo": "https://github.com/JOJ0/transaction-cutter",
+      "run": "",
+      "language": "Python"
+    },
+    {
+      "title": "Audio Utils",
+      "text": "Shell scripts to mass-manipulate audio and video files",
+      "repo": "https://github.com/JOJ0/audio-utils",
+      "run": "",
+      "language": "Bash/Zsh"
+    },
+    {
+      "title": "Mailchimp Members",
+      "text": "Unpacks a mailchimp members list zip file, filters columns and writes new csv file",
+      "repo": "https://github.com/JOJ0/mailchimp-members",
+      "run": "",
+      "language": "Python"
+    },
+    {
+      "title": "GitHub Projects Util",
+      "text": "Uses PyGithub to retrieve \"GitHub Project\" (aka kanban) cards",
+      "repo": "https://github.com/JOJ0/github-util",
+      "run": "",
+      "language": "Python"
+    },
+    {
+      "title": "MPC 1000 Sequence Util",
+      "text": "CLI utility to manipulate sequence files of an AKAI MPC 1000 sampler device",
+      "repo": "https://github.com/JOJ0/mpc1k-seq",
+      "run": "",
+      "language": "Python"
+    },
+    {
+      "title": "APC mini Controller Script",
+      "text": "Ableton Live 9.x controller script for the \"Akai MPC mini\"",
+      "repo": "https://github.com/JOJ0/ableton-live9-remote-scripts",
+      "language": "Python"
     }
   ]
 }
