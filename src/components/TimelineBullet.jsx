@@ -1,4 +1,4 @@
-function TimelineBullet(props) {
+export function TimelineBullet(props) {
 
   return(
         <div className="col-sm-3 text-center flex-column d-sm-flex">
@@ -21,4 +21,3 @@ function TimelineBullet(props) {
   )
 }
 
-export default TimelineBullet;

@@ -1,7 +1,9 @@
-function TimelineEntry(props) {
+import logo_ms from '~assets/microsoft.svg';
+import logo_py from '~assets/python.svg';
 
+export function TimelineEntry(props) {
   return(
-    <div className="col-auto py-2">
+    <div className="col-auto py-2" key={props.key}>
       <div className={props.highlight ? "card card-timeline border-success shadow" : "card card-timeline"}>
         <img className="card-img-top" src={ props.image } width="32" height="32" />
         <div className="card-body p-2">
@@ -13,4 +15,12 @@ function TimelineEntry(props) {
   )
 }
 
-export default TimelineEntry;
+export function TimelineEntriesFactory(props) {
+  const entries = props.entries.map((entry, index) => {
+    return (
+      <TimelineEntry topic={entry.topic} image={entry.icon} key={index}/>
+    );
+  });
+  return entries;
+}
+

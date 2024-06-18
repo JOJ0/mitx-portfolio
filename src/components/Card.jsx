@@ -1,5 +1,4 @@
 export function Card(props) {
-
   return(
     <div className="card mb-3" width="10px">
       {props.header && (<div className="card-header">{props.header}</div>)}
