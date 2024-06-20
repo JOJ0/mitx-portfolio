@@ -1,6 +1,6 @@
 import logo_ms from '~assets/microsoft.svg';
 import logo_py from '~assets/python.svg';
-import logo_bat from '~assets/python.svg';
+import logo_bat from '~assets/batch.png';
 
 export function TimelineEntry(props) {
   return(
