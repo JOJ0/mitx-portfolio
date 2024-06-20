@@ -3,7 +3,7 @@
     {
       "year": "1995-1997",
       "topic": "DOS BATCH",
-      "icon": "logo_ms"
+      "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v12/icons/microsoft.svg"
     },
     {
       "year": "1995-1997",
@@ -18,7 +18,7 @@
     {
       "year": "1998-1999",
       "topic": "Bash",
-      "icon": ""
+      "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v12/icons/simpleicons.svg"
     },
     {
       "year": "1998-1999",
