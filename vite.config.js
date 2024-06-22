@@ -7,10 +7,10 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   plugins: [react()],
     resolve: {
-    alias: {
-      '~bootstrap': path.resolve(__dirname, 'node_modules/bootstrap'),
-      '~assets': path.resolve(__dirname, 'src/assets'),
-    },
+      alias: {
+        '~bootstrap': path.resolve(__dirname, 'node_modules/bootstrap'),
+        '~assets': path.resolve(__dirname, 'src/assets'),
+      },
     base: "./portfolio"
   },
 })
