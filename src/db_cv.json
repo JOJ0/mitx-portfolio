@@ -2,28 +2,33 @@
   "dev": [
     {
       "year": "1995-1997",
-      "topic": "DOS BATCH",
-      "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v12/icons/microsoft.svg"
-    },
-    {
-      "year": "1995-1997",
-      "topic": "GWBASIC",
-      "icon": "logo_ms"
-    },
-    {
-      "year": "1998-1999",
       "topic": "MS-DOS BATCH",
       "icon": "/batch.png"
     },
     {
-      "year": "1998-1999",
+      "year": "1994",
+      "topic": "GWBASIC",
+      "icon": "/ms-80-82.jpg"
+    },
+    {
+      "year": "1998",
+      "topic": "Visual Basic",
+      "icon": "/vb-file.png"
+    },
+    {
+      "year": "1998",
       "topic": "Bash",
       "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v12/icons/gnubash.svg"
     },
     {
-      "year": "1998-1999",
+      "year": "1998",
       "topic": "HTML CSS",
       "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v12/icons/htmx.svg"
+    },
+    {
+      "year": "1998",
+      "topic": "8051 Assembler",
+      "icon": "/microcontroller.png"
     },
     {
     }
