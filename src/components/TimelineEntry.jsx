@@ -17,7 +17,8 @@ export function TimelineEntry(props) {
 }
 
 export function TimelineEntriesFactory(props) {
-  const entries = props.entries.map((entry, index) => {
+  const sorted = props.entries.sort((a, b) => a.topic.localeCompare(b.topic));
+  const entries = sorted.map((entry, index) => {
     return (
       <TimelineEntry topic={entry.topic} image={entry.icon} key={index}/>
     );
