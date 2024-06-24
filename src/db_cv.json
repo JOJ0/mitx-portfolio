@@ -13,7 +13,7 @@
     {
       "year": "1998-2000",
       "topic": "Visual Basic",
-      "icon": "/vb-file.png"
+      "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v12/icons/visualbasic.svg"
     },
     {
       "year": "1998-2000",
@@ -33,7 +33,7 @@
     {
       "year": "2002",
       "topic": "Visual Basic",
-      "icon": "/vb-file.png"
+      "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v12/icons/visualbasic.svg"
     },
     {
       "year": "2002",
