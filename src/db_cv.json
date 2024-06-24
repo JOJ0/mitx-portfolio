@@ -30,6 +30,20 @@
       "topic": "8051 Assembler",
       "icon": "/microcontroller.png"
     },
+      "year": "1998-2000",
+      "topic": "Visual Basic",
+      "icon": "/vb-file.png"
+    },
+    {
+      "year": "1998-2000",
+      "topic": "Bash",
+      "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v12/icons/gnubash.svg"
+    },
+    {
+      "year": "1998-2000",
+      "topic": "HTML CSS",
+      "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v12/icons/htmx.svg"
+    }, 
     {
     }
   ]
