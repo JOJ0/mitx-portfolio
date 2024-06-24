@@ -13,7 +13,7 @@ export function TimelineBullet(props) {
             </h5>
 
             <div className="row h-50">
-                <div className="col order">&nbsp;</div>
+                <div className="col border-end order">&nbsp;</div>
                 <div className="col">&nbsp;</div>
             </div>
 
