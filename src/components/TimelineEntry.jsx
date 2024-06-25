@@ -20,7 +20,9 @@ export function TimelineEntriesFactory(props) {
   const sorted = props.entries.sort((a, b) => a.topic.localeCompare(b.topic));
   const entries = sorted.map((entry, index) => {
     return (
+      <div className="card-deck"></>
       <TimelineEntry topic={entry.topic} image={entry.icon} key={index}/>
+      </div>
     );
   });
   return entries;
