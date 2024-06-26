@@ -28,6 +28,6 @@ export function TimelineEntriesFactory(props) {
       {entries}
     </div>
   )
-  return deck;
+  return entries;
 }
 
