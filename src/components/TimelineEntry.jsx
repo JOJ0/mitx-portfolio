@@ -24,7 +24,7 @@ export function TimelineEntriesFactory(props) {
     );
   });
   const deck =  (
-    <div className="card-deck">
+    <div className="">
       {entries}
     </div>
   )
