@@ -1,47 +1,47 @@
 {
   "dev": [
     {
-      "year": "1995-1997",
+      "year": ["1995-1997"],
       "topic": "MS-DOS BATCH",
       "icon": "/batch.png"
     },
     {
-      "year": "1994",
+      "year": ["1994"],
       "topic": "GWBASIC",
       "icon": "/ms-80-82.jpg"
     },
     {
-      "year": "1998-2000",
+      "year": ["1998-2000"],
       "topic": "Visual Basic",
       "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v12/icons/visualbasic.svg"
     },
     {
-      "year": "1998-2000",
+      "year": ["1998-2000"],
       "topic": "Bash",
       "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v12/icons/gnubash.svg"
     },
     {
-      "year": "1998-2000",
+      "year": ["1998-2000]",
       "topic": "HTML CSS",
       "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v12/icons/htmx.svg"
     },
     {
-      "year": "1998-2000",
+      "year": ["1998-2000"],
       "topic": "8051 Assembler",
       "icon": "/microcontroller.png"
     },
     {
-      "year": "2002",
+      "year": ["2002"],
       "topic": "Visual Basic",
       "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v12/icons/visualbasic.svg"
     },
     {
-      "year": "2002",
+      "year": ["2002"],
       "topic": "Bash",
       "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v12/icons/gnubash.svg"
     },
     {
-      "year": "2002",
+      "year": ["2002]",
       "topic": "HTML CSS",
       "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v12/icons/htmx.svg"
     },
@@ -51,12 +51,12 @@
       "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v12/icons/visualbasic.svg"
     },
     {
-      "year": "2003-2004",
+      "year": ["2003-2004"],
       "topic": "Bash",
       "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v12/icons/gnubash.svg"
     },
     {
-      "year": "2003-2004",
+      "year": ["2003-2004"],
       "topic": "JavaScript",
       "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v12/icons/javascript.svg"
     },
@@ -66,22 +66,22 @@
       "icon": "/vbs-file.png"
     },
     {
-      "year": "2005-2006",
+      "year": ["2005-2006"],
       "topic": "Bash",
       "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v12/icons/gnubash.svg"
     },
     {
-      "year": "2005-2006",
+      "year": ["2005-2006"],
       "topic": "PHP",
       "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v12/icons/php.svg"
     },
     {
-      "year": "2005-2006",
+      "year": ["2005-2006"],
       "topic": "HTML CSS",
       "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v12/icons/htmx.svg"
     },
     {
-      "year": "2005-2006",
+      "year": ["2005-2006"],
       "topic": "MySQL",
       "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v12/icons/mysql.svg"
     },
