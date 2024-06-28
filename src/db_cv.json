@@ -21,7 +21,7 @@
       "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v12/icons/gnubash.svg"
     },
     {
-      "year": ["1998-2000]",
+      "year": ["1998-2000"],
       "topic": "HTML CSS",
       "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v12/icons/htmx.svg"
     },
@@ -46,7 +46,7 @@
       "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v12/icons/htmx.svg"
     },
     {
-     "year": "2003-2004",
+     "year": ["2003-2004"],
       "topic": "Visual Basic",
       "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v12/icons/visualbasic.svg"
     },
@@ -61,7 +61,7 @@
       "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v12/icons/javascript.svg"
     },
     {
-      "year": "2003-2004",
+      "year": ["2003-2004"],
       "topic": "Visual Basic Script",
       "icon": "/vbs-file.png"
     },
