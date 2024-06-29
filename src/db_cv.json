@@ -1,89 +1,79 @@
 {
   "dev": [
     {
-      "year": ["1995-1997"],
-      "topic": "MS-DOS BATCH",
-      "icon": "/batch.png"
-    },
-    {
-      "year": ["1994"],
+      "year": ["1994", "1995"],
       "topic": "GWBASIC",
       "icon": "/ms-80-82.jpg"
     },
     {
-      "year": ["1998-2000"],
+      "year": ["1995", "1996", "1997"],
+      "topic": "MS-DOS BATCH",
+      "icon": "/batch.png"
+    },
+    {
+      "year": ["1998", "1999", "2002", "2003", "2004"],
       "topic": "Visual Basic",
       "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v12/icons/visualbasic.svg"
     },
     {
-      "year": ["1998-2000"],
+      "year": ["1998", "1999", "2000", "2002", "2003", "2004", "2005", "2006", "2007", "2008", "2009", "2010", "2011", "2012", "2013", "2015", "2016", "2017"],
       "topic": "Bash",
       "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v12/icons/gnubash.svg"
     },
     {
-      "year": ["1998-2000"],
+      "year": ["1998", "1999", "2000", "2002", "2005", "2006", "2007"],
       "topic": "HTML CSS",
       "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v12/icons/htmx.svg"
     },
     {
-      "year": ["1998-2000"],
+      "year": ["1999", "2000"],
       "topic": "8051 Assembler",
       "icon": "/microcontroller.png"
     },
     {
-      "year": ["2002"],
-      "topic": "Visual Basic",
-      "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v12/icons/visualbasic.svg"
-    },
-    {
-      "year": ["2002"],
-      "topic": "Bash",
-      "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v12/icons/gnubash.svg"
-    },
-    {
-      "year": ["2002"],
-      "topic": "HTML CSS",
-      "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v12/icons/htmx.svg"
-    },
-    {
-     "year": ["2003-2004"],
-      "topic": "Visual Basic",
-      "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v12/icons/visualbasic.svg"
-    },
-    {
-      "year": ["2003-2004"],
-      "topic": "Bash",
-      "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v12/icons/gnubash.svg"
-    },
-    {
-      "year": ["2003-2004"],
+      "year": ["2003", "2004"],
       "topic": "JavaScript",
       "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v12/icons/javascript.svg"
     },
     {
-      "year": ["2003-2004"],
+      "year": ["2003", "2004", "2008", "2009"],
       "topic": "Visual Basic Script",
       "icon": "/vbs-file.png"
     },
     {
-      "year": ["2005-2006"],
-      "topic": "Bash",
-      "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v12/icons/gnubash.svg"
-    },
-    {
-      "year": ["2005-2006"],
+      "year": ["2005", "2006", "2007"],
       "topic": "PHP",
       "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v12/icons/php.svg"
     },
     {
-      "year": ["2005-2006"],
-      "topic": "HTML CSS",
-      "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v12/icons/htmx.svg"
-    },
-    {
-      "year": ["2005-2006"],
+      "year": ["2005", "2006", "2007"],
       "topic": "MySQL",
       "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v12/icons/mysql.svg"
+    },
+    {
+      "year": ["2015", "2016", "2017"],
+      "topic": "Perl",
+      "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v12/icons/perl.svg"
+    },
+    {
+      "year": ["2015", "2016", "2017"],
+      "topic": "Ruby",
+      "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v12/icons/ruby.svg"
+    },
+    {
+      "year": ["2015", "2016", "2017"],
+      "topic": "Python",
+      "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v12/icons/python.svg"
+    },
+    {
+      "year": ["2022"],
+      "topic": "Java",
+      "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v12/icons/java.svg"
+    },
+    {
+      "year": ["2022"],
+      "topic": "BitBucket Plugin SDK",
+      "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v12/icons/bitbucket.svg"
     },
     {
       "year": [""],
