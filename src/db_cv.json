@@ -61,9 +61,14 @@
       "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v12/icons/ruby.svg"
     },
     {
-      "year": ["2015", "2016", "2017"],
+      "year": ["2015", "2016", "2017", 2018, 2019, 2020, 2021, 2022, 2023, 2024],
       "topic": "Python",
       "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v12/icons/python.svg"
+    },
+    {
+      "year": [2018, 2019, 2020],
+      "topic": "Python",
+      "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v12/icons/flask.svg"
     },
     {
       "year": ["2022"],
