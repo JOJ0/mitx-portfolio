@@ -8,8 +8,8 @@ export const TimelineRow = (props) => {
     console.log(entry)
     console.log("props.year is:");
     console.log(props.year)
-    // accept str and int as filter year
-    const filterYear = int(props.year);
+    // Make sure filter year is string
+    const filterYear = str(props.year);
     return entry.year.includes(filterYear);
   });
 
