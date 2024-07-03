@@ -80,6 +80,7 @@
       "topic": "Wagtail",
       "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v12/icons/wagtail.svg"
     },
+    {
       "year": [2021],
       "topic": "PyQT",
       "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v12/icons/qt.svg"
