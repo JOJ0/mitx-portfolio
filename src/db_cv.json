@@ -67,8 +67,13 @@
     },
     {
       "year": [2018, 2019, 2020],
-      "topic": "Python",
+      "topic": "Flask",
       "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v12/icons/flask.svg"
+    },
+    {
+      "year": [2018,2019,2020,2021,2022],
+      "topic": "Django",
+      "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v12/icons/django.svg"
     },
     {
       "year": ["2022"],
