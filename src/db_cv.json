@@ -84,7 +84,12 @@
       "year": [2021],
       "topic": "PyQT",
       "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v12/icons/qt.svg"
-    }, 
+    },
+    {
+      "year": [2020,2021,2022,2023,2024],
+      "topic": "Python Click",
+      "icon": "/click.webp"
+    },
     {
       "year": ["2022"],
       "topic": "Java",
