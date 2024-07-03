@@ -7,14 +7,13 @@ export const TimelineRow = (props) => {
     console.log("entry is:");
     console.log(entry)
     console.log("props.year is:");
-    console.log(props.year)
+    console.log(props.year);
+    
     // Handle year as string and int
-    if (
-      entry.year.includes(props.year) ||
-      entry.year.includes(int(props.year))
-    ) {
+    if (entry.year.includes(props.year) || entry.year.includes(int(props.year))) {
       return true;
     };
+ 
     return false;
   });
 
