@@ -1,4 +1,5 @@
 export function TimelineBullet(props) {
+  let hl = props.highlight;
 
   return(
         <div className="col-sm-3 text-center flex-column d-sm-flex">
@@ -9,7 +10,7 @@ export function TimelineBullet(props) {
             </div>
 
             <h5 className="m-2">
-                <span className={props.highlight ? "badge rounded-pill bg-success" : "badge rounded-pill bg-success"}>{props.caption}</span>
+                <span className={hl ? "badge rounded-pill bg-success" : "badge rounded-pill bg-dark"}>{props.caption}</span>
             </h5>
 
             <div className="row h-50">
