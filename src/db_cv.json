@@ -67,22 +67,22 @@
     },
     {
       "year": [2018,2019,2020],
-      "topic": "Flask",
+      "topic": "Python Flask",
       "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v12/icons/flask.svg"
     },
     {
       "year": [2018,2019,2020,2021,2022],
-      "topic": "Django",
+      "topic": "Python Django",
       "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v12/icons/django.svg"
     },
     {
       "year": [2018,2019,2020,2021,2022],
-      "topic": "Wagtail",
+      "topic": "Python Wagtail",
       "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v12/icons/wagtail.svg"
     },
     {
       "year": [2021],
-      "topic": "PyQT",
+      "topic": "Python PyQT",
       "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v12/icons/qt.svg"
     },
     {
@@ -97,7 +97,7 @@
     },
     {
       "year": [2022],
-      "topic": "BitBucket Plugin SDK",
+      "topic": "Java BitBucket Plugin SDK",
       "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v12/icons/bitbucket.svg"
     },
     {
