@@ -81,9 +81,24 @@
       "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v12/icons/wagtail.svg"
     },
     {
+      "year": [2020],
+      "topic": "JavaScript ReactNative",
+      "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v12/icons/reactnative.svg"
+    },
+    {
       "year": [2021],
       "topic": "Python PyQT",
       "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v12/icons/qt.svg"
+    },
+    {
+      "year": [2021],
+      "topic": "Dart",
+      "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v12/icons/dart.svg"
+    },
+    {
+      "year": [2021],
+      "topic": "Dart Flutter",
+      "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v12/icons/flutter.svg"
     },
     {
       "year": [2020,2021,2022,2023,2024],
