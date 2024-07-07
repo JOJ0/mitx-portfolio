@@ -7,7 +7,7 @@ export function TimelineEntry(props) {
 
   return(
     <div className="col-auto py-2" key={props.key}>
-      <div width="20px" className={hl ? "card card-timeline border-success shadow" : "card card-timeline"}>
+      <div className={hl ? "card card-timeline border-success shadow" : "card card-timeline"}>
         <img className="card-img-top" src={ props.image } />
         <div className="card-body p-2">
           <div className={hl ? "float-end text-success" : "float-end text-dark"}>{ props.topright }</div>
