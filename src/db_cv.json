@@ -125,6 +125,26 @@
       "topic": "",
       "icon": ""
     }
+  ],
+
+
+
+
+
+
+
+ 
+  "ops": [
+    {
+      "year": [1998,1999,2000,2001,2002,2003,2004],
+      "topic": "Debian GNU/Linux",
+      "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v12/icons/debian.svg"
+    },
+    {
+      "year": [],
+      "topic": "",
+      "icon": ""
+    }
   ]
 }
 
