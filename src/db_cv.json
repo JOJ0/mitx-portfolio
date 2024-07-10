@@ -98,7 +98,7 @@
     {
       "year": [2020,2021,2022,2023,2024],
       "topic": "Visual Studio Code",
-      "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v12/icons/.svg"
+      "icon": "/vscode-alt.svg"
     },
     {
       "year": [2021],
