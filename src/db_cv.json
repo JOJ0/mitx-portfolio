@@ -26,12 +26,12 @@
       "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v12/icons/htmx.svg"
     },
     {
-      "year": [1999,2000],
+      "year": [2000,2001],
       "topic": "8051 Assembler",
       "icon": "/microcontroller.png"
     },
     {
-      "year": [2003,2004],
+      "year": [2003,2004,2020,2023,2024],
       "topic": "JavaScript",
       "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v12/icons/javascript.svg"
     },
