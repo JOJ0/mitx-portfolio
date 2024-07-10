@@ -86,9 +86,19 @@
       "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v12/icons/wagtail.svg"
     },
     {
+      "year": [2018,2019,2020,2021,2022,2023,2024],
+      "topic": "Bootstrap",
+      "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v12/icons/bootstrap.svg"
+    },
+    {
       "year": [2020],
       "topic": "JavaScript ReactNative",
       "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v12/icons/react.svg"
+    },
+    {
+      "year": [2020,2021,2022,2023,2024],
+      "topic": "Visual Studio Code",
+      "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v12/icons/.svg"
     },
     {
       "year": [2021],
@@ -119,6 +129,96 @@
       "year": [2022],
       "topic": "Java BitBucket Plugin SDK",
       "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v12/icons/bitbucket.svg"
+    },
+    {
+      "year": [2023,2024],
+      "topic": "MongoDB",
+      "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v12/icons/mongodb.svg"
+    },
+    {
+      "year": [2023,2024],
+      "topic": "JavaScript Node.js",
+      "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v12/icons/nodedotjs.svg"
+    },
+    {
+      "year": [2023,2024],
+      "topic": "JavaScript Nodemon",
+      "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v12/icons/nodemon.svg"
+    },
+    {
+      "year": [2023,2024],
+      "topic": "JavaScript Express.js",
+      "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v12/icons/express.svg"
+    },
+    {
+      "year": [2023,2024],
+      "topic": "JavaScript React.js",
+      "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v12/icons/react.svg"
+    },
+    {
+      "year": [2023,2024],
+      "topic": "JavaScript React Router",
+      "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v12/icons/reactrouter.svg"
+    },
+    {
+      "year": [2023,2024],
+      "topic": "JavaScript React Bootstrap",
+      "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v12/icons/reactbootstrap.svg"
+    },
+    {
+      "year": [2023,2024],
+      "topic": "JavaScript ES6",
+      "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v12/icons/javascript.svg"
+    },
+    {
+      "year": [2023,2024],
+      "topic": "JavaScript Formik",
+      "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v12/icons/formik.svg"
+    },
+    {
+      "year": [2023,2024],
+      "topic": "JavaScript Vite.js",
+      "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v12/icons/vite.svg"
+    },
+    {
+      "year": [2023,2024],
+      "topic": "JavaScript Swagger",
+      "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v12/icons/swagger.svg"
+    },
+    {
+      "year": [2023,2024],
+      "topic": "JavaScript Google Firebase",
+      "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v12/icons/firebase.svg"
+    },
+    {
+      "year": [2023,2024],
+      "topic": "JavaScript Redis",
+      "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v12/icons/redis.svg"
+    },
+    {
+      "year": [2023,2024],
+      "topic": "Heroku",
+      "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v12/icons/heroku.svg"
+    },
+    {
+      "year": [2023,2024],
+      "topic": "Amazon AWS S3",
+      "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v12/icons/amazons3.svg"
+    },
+    {
+      "year": [2023,2024],
+      "topic": "Amazon AWS EC2",
+      "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v12/icons/amazonec2.svg"
+    },
+    {
+      "year": [2023,2024],
+      "topic": "Docker Compose",
+      "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v12/icons/docker.svg"
+    },
+    {
+      "year": [2023,2024],
+      "topic": "Docker Build",
+      "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v12/icons/docker.svg"
     },
     {
       "year": [],
