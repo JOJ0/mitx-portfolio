@@ -91,7 +91,7 @@
       "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v12/icons/bootstrap.svg"
     },
     {
-      "year": [2020],
+      "year": [2019,2020],
       "topic": "JavaScript ReactNative",
       "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v12/icons/react.svg"
     },
@@ -166,7 +166,7 @@
       "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v12/icons/reactbootstrap.svg"
     },
     {
-      "year": [2023,2024],
+      "year": [2019,2020,2023,2024],
       "topic": "JavaScript ES6",
       "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v12/icons/javascript.svg"
     },
