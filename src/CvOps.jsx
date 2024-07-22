@@ -10,7 +10,7 @@ function CvOps() {
   }
 
   return (
-    <Page title="CV.ops" subheading="Work in progress. You'll find an alternative approach to a CV of my sysadmin related skills and experience here soon." content={rows} />
+    <Page title="CV.ops" subheading="WIP - find an alternative approach to a CV here soon - sysadmin & operating" content={rows} />
   )
 }
 
