@@ -6,8 +6,9 @@ function CvArt() {
   )
 
   return (
-    <Page title="CV.art" content={content} />
+    <Page title="CV.art" subheading="Work in progress. You'll find an alternative approach to a CV of my art related projects here soon." content={content} />
   )
 }
 
 export default CvArt;
+
