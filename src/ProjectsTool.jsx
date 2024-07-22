@@ -5,12 +5,10 @@ import projects from './db_projects.json'
 
 function ProjectsTool() {
   const title = "Projects.Tool"
+  const subheading = "Smaller tools and utilities. Some unmaintained, mostly opinionated, often unsophisticated code. I still use some of them on a regular basis though. Fork it and HTH!"
   const content = (
     <>
     <div className="row">
-      <p>
-      Smaller tools and utilities. Mostly unmaintained, opinionated and unsophisticated code. I still use some of them on a regular basis though. Might be usable as a starting point for others. Fork it and HTH!
-      </p>
     </div>
 
     <div className="row">
@@ -20,7 +18,7 @@ function ProjectsTool() {
   );
 
   return (
-    <Page title={title} content={content} />
+    <Page title={title} subheading={subheading} content={content} />
   )
 }
 
