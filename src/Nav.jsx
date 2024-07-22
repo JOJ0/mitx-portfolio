@@ -9,7 +9,7 @@ function Nav() {
       <div className="container-sm">
 
         <span className="navbar-brand">
-          <img src={logo_jt_svg} alt="" width="35" height="35" />
+          <img src={logo_jt_svg} alt="" width="55" height="55" />
         </span>
 
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
