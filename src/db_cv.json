@@ -71,6 +71,11 @@
       "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v12/icons/python.svg"
     },
     {
+      "year": [2018,2019,2020,2021,2022],
+      "topic": "SQLite",
+      "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v12/icons/sqlite.svg"
+    },
+    {
       "year": [2018,2019,2020],
       "topic": "Python Flask",
       "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v12/icons/flask.svg"
