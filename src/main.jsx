@@ -11,6 +11,7 @@ import ProjectsTool from './ProjectsTool.jsx'
 import CvDev from './CvDev.jsx'
 import CvOps from './CvOps.jsx'
 import CvArt from './CvArt.jsx'
+import About from './About.jsx'
 // Import our SCSS (which contains bootstrap stuff!)
 import './main.scss'
 // Import additinoal (plain) CSS
@@ -29,6 +30,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
         <Route path="/cvdev" element={<CvDev />}/>
         <Route path="/cvops" element={<CvOps />}/>
         <Route path="/cvart" element={<CvArt />}/>
+        <Route path="/about" element={<About />}/>
       </Route>
     </Routes>
   </BrowserRouter>

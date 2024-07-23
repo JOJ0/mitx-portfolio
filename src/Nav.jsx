@@ -50,6 +50,9 @@ function Nav() {
               </ul>
             </li>
 
+            <li className="nav-item">
+              <NavLink className="nav-link" to="/about">Why</NavLink>
+            </li>
 
           </ul>
         </div>
