@@ -98,6 +98,13 @@
   ],
   "tool": [
     {
+      "title": "GIFace",
+      "text": "A face recognition and GIF slideshow tool. There was none out there that suited my needs, so I created one. Have fun!",
+      "repo": "https://github.com/JOJ0/giface",
+      "run": "",
+      "language": "Python"
+    },
+    {
       "title": "Jekyll Helpers",
       "text": "Helpers to generate picture galleries for Jekyll based websites/blogs",
       "repo": "https://github.com/JOJ0/jekyll-helpers",
