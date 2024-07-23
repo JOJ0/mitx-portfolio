@@ -37,7 +37,7 @@ function Home() {
             Similarily my ops and sysadmin experience <Link to="cvops">is summarized here - WIP coming soon</Link>
           </p>
           <p>
-            Last and surely not least I have some experience in the music and art scene. I've organized <Link to="cvart">music events, DJ nights and participated in art projects - WIP coming soon</Link>.
+            Last but surely not least I have some experience in the music and art scene. I've organized <Link to="cvart">music events, DJ nights and participated in art projects - WIP coming soon</Link>.
           </p>
 
         </div>
