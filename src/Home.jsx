@@ -31,7 +31,7 @@ function Home() {
             Get an overview of <Link to="projects/foss">the FOSS projects I'm involved with here</Link>, and find out what <Link to="projects/corporate">corporate (closed source) projects I'm proud of there - WIP/coming soon</Link>.
           </p>
           <p>
-            An overview of my programming skillset is found  <Link to="cvdev">in this alternative approach on a CV</Link>
+            An overview of my programming skill set is found  <Link to="cvdev">in this alternative approach on a CV</Link>
           </p>
           <p>
             Similarily my ops and sysadmin experience <Link to="cvops">is summarized here - WIP/coming soon</Link>

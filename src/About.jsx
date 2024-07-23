@@ -8,7 +8,7 @@ function About() {
       <div class="col-12">
         <div>
           <p>
-            The main reason this website exists is to give recruiters a chance to easily find out who I am and what skill-set I have to offer. It mostly is about the "What I do for a living side of things" but might link to other parts of my life in the future.
+            The main reason this website exists is to give recruiters a chance to easily find out who I am and what skill set I have to offer. It mostly is about the "What I do for a living side of things" but might link to other parts of my life in the future.
       .
           </p>
           <p>
