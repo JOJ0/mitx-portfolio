@@ -1,6 +1,7 @@
 import { NavLink } from 'react-router-dom'
 import logo_jt_svg from '~assets/jt_noframe_bigger02_grey80_NoBack_center.svg'
 
+
 function Nav() {
 
   return (
@@ -19,39 +20,95 @@ function Nav() {
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav" id="navbarList">
             <li className="nav-item">
-              <NavLink className="nav-link" to="/">Bio</NavLink>
+              <NavLink className="nav-link d-lg-none" to="/">
+                <span data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                  Bio
+                </span>
+              </NavLink>
+              <NavLink className="nav-link d-none d-lg-block" to="/">
+                  Bio
+              </NavLink>
             </li>
 
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <li className="nav-item dropdown">
+              <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               Projects
               </a>
 
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
                 <li>
-                  <NavLink className="nav-link" to="/projects/foss">Open-source</NavLink>
-                  <NavLink className="nav-link" to="/projects/exercise">Exercise</NavLink>
-                  <NavLink className="nav-link" to="/projects/tool">Tool</NavLink>
+                  <NavLink className="nav-link d-lg-none" to="/projects/foss">
+                    <span data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                      Open-source
+                    </span>
+                  </NavLink>
+                  <NavLink className="nav-link d-none d-lg-block" to="/projects/foss">
+                      Open-source
+                  </NavLink>
+                  <NavLink className="nav-link d-lg-none" to="/projects/exercise">
+                    <span data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                      Exercise
+                    </span>
+                  </NavLink>
+                  <NavLink className="nav-link d-none d-lg-block" to="/projects/exercise">
+                      Exercise
+                  </NavLink>
+                  <NavLink className="nav-link d-lg-none" to="/projects/tool">
+                    <span data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                      Tool
+                    </span>
+                  </NavLink>
+                  <NavLink className="nav-link d-none d-lg-block" to="/projects/tool">
+                      Tool
+                  </NavLink>
                 </li>
               </ul>
             </li>
 
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <li className="nav-item dropdown">
+              <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               CV
               </a>
 
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
                 <li>
-                  <NavLink className="nav-link" to="/cvdev">CV.dev</NavLink>
-                  <NavLink className="nav-link" to="/cvops">CV.ops</NavLink>
-                  <NavLink className="nav-link" to="/cvart">CV.art</NavLink>
+                  <NavLink className="nav-link d-lg-none" to="/cvdev">
+                    <span data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                      CV.dev
+                    </span>
+                  </NavLink>
+                  <NavLink className="nav-link d-none d-lg-block" to="/cvdev">
+                      CV.dev
+                  </NavLink>
+                  <NavLink className="nav-link d-lg-none" to="/cvops">
+                    <span data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                      CV.ops
+                    </span>
+                  </NavLink>
+                  <NavLink className="nav-link d-none d-lg-block" to="/cvops">
+                      CV.ops
+                  </NavLink>
+                  <NavLink className="nav-link d-lg-none" to="/cvart">
+                    <span data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                      CV.art
+                    </span>
+                  </NavLink>
+                  <NavLink className="nav-link d-none d-lg-block" to="/cvart">
+                      CV.art
+                  </NavLink>
                 </li>
               </ul>
             </li>
 
             <li className="nav-item">
-              <NavLink className="nav-link" to="/about">Why</NavLink>
+              <NavLink className="nav-link d-lg-none" to="/about">
+                <span data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                  Why
+                </span>
+              </NavLink>
+              <NavLink className="nav-link d-none d-lg-block" to="/about">
+                  Why
+              </NavLink>
             </li>
 
           </ul>
