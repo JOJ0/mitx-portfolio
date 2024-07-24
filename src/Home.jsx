@@ -4,11 +4,10 @@ import portrait01 from '~assets/portrait.png'
 
 function Home() {
   const content = (
-    <>
-    <div class="row">
-      <div class="col-12">
+    <div className="row">
+      <div className="col">
         <div>
-          <img class="img-fluid rounded float-end me-3 portrait-max" src={portrait01} alt="Portrait Picture" />
+          <img className="img-fluid rounded float-end me-3 portrait-max" src={portrait01} alt="Portrait" />
         </div>
 
         <div>
@@ -44,11 +43,10 @@ function Home() {
       </div>
     </div>
 
-    </>
   )
 
   return (
-    <Page title="Bio" content={content} />
+    <Page title="Bio" subheading="graphy" content={content} />
   )
 }
 

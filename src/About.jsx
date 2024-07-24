@@ -1,11 +1,11 @@
 import { Link } from 'react-router-dom'
 import Page from './components/Page.jsx'
+import portrait01 from '~assets/portrait.png'
 
 function About() {
   const content = (
-    <>
-    <div class="row">
-      <div class="col-12">
+    <div className="row">
+      <div className="col">
         <div>
           <p>
             The main reason this website exists is to give recruiters a chance to easily find out who I am and what skill set I have to offer. It mostly is about the "What I do for a living side of things" but might link to other parts of my life in the future.
@@ -22,7 +22,6 @@ function About() {
       </div>
     </div>
 
-    </>
   )
 
   return (

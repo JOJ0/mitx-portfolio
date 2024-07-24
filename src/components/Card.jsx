@@ -8,10 +8,10 @@ export function Card(props) {
           {props.text && (props.text)}
         </p>
         <p className="mt-o mb-0">
-          {props.repo && (<a href={props.repo} class="btn btn-outline-secondary">Repo</a>)}
-          {props.run && (<a href={props.run} class="btn btn-secondary">Run</a>)}
-          {props.docs && (<a href={props.run} class="btn btn-secondary">Docs</a>)}
-          {props.website && (<a href={props.website} class="btn btn-dark">Website</a>)}
+          {props.repo && (<a href={props.repo} className="btn btn-outline-secondary">Repo</a>)}
+          {props.run && (<a href={props.run} className="btn btn-secondary">Run</a>)}
+          {props.docs && (<a href={props.run} className="btn btn-secondary">Docs</a>)}
+          {props.website && (<a href={props.website} className="btn btn-dark">Website</a>)}
         </p>
           {props.members && (<div className="card-status"><em>Members: {props.members}</em></div>)}
       </div>

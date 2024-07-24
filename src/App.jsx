@@ -8,7 +8,7 @@ function App() {
   return (
     <>
       <Nav />
-      <div className="container-sm">
+      <div className="container">
         <Outlet />
       </div>
     </>
