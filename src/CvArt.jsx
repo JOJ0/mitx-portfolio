@@ -1,12 +1,15 @@
-import Page from './components/Page.jsx'
+import Page from './components/Page.jsx';
+import { TimelineRow } from './components/TimelineRow.jsx';
+import cv from './db_cv.json';
 
 function CvArt() {
-  const content = (
-    <></>
-  )
+  const rows = [];
+  for (var y=2005; y <= 2024; y++) {
+    rows.push(<TimelineRow data={cv["art"]} year={y} />);
+  }
 
   return (
-    <Page title="CV.art" subheading="WIP - find an alternative approach to a CV here soon - art related projects." content={content} />
+    <Page title="CV.art" subheading="WIP - find an alternative approach to a CV here soon - art related projects." content={rows} />
   )
 }
 

@@ -250,6 +250,27 @@
       "topic": "",
       "icon": ""
     }
+  ],
+
+
+
+
+
+  "art": [
+    {
+      "year": [],
+      "topic": "",
+      "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v12/icons/note.svg"
+    },
+    {
+      "year": [],
+      "topic": "",
+      "icon": ""
+    }
   ]
+
+
+
+
 }
 
