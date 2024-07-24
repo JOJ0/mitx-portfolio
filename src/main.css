@@ -43,6 +43,18 @@
 }
 */
 
+#root {
+  max-width: 1024px;
+}
+.wrapper-head {
+  max-width: 1024px;
+  margin: 0 2em 0 2em;
+}
+.wrapper-main {
+  max-width: 1024px;
+  margin: 0 2em 0 2em;
+}
+
 /* My styles from original project (my.css) */
 /* and only those actually used */
 a {

@@ -7,9 +7,15 @@ function App() {
 
   return (
     <>
-      <Nav />
-      <div className="container">
-        <Outlet />
+      <div className="wrapper-head">
+        <div>
+          <Nav />
+        </div>
+      </div>
+      <div className="wrapper-main">
+        <div className="container">
+          <Outlet />
+        </div>
       </div>
     </>
   )
