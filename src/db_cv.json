@@ -241,9 +241,74 @@
  
   "ops": [
     {
-      "year": [1998,1999,2000,2001,2002,2003,2004],
+      "year": [1998,1999,2000],
+      "topic": "MS-DOS",
+      "icon": "/msdos.svg"
+    },
+    {
+      "year": [1998,1999,2000],
+      "topic": "Windows NT4 Server",
+      "icon": "/winnt4.svg"
+    },
+    {
+      "year": [2000,2001,2002,2003],
+      "topic": "Windows 2000 Server",
+      "icon": "/win2k.svg"
+    },
+    {
+      "year": [2003,2004,2005,2006,2007,2008],
+      "topic": "Windows Server 2003",
+      "icon": "/win2k3.svg"
+    },
+    {
+      "year": [2009,2010,2011],
+      "topic": "Windows Server 2008",
+      "icon": "/win2k8.svg"
+    },
+    {
+      "year": [1998,1999,2000,2001,2002,2003,2004,2022,2023],
       "topic": "Debian GNU/Linux",
       "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v12/icons/debian.svg"
+    },
+    {
+      "year": [1998,2016,2017],
+      "topic": "SuSE Linux",
+      "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v12/icons/suse.svg"
+    },
+    {
+      "year": [2005,2006,2007,2008,2009,2010,2011,2012,2013,2014,2015,2016,2017,2018,2019,2020,2021,2022,2023,2024],
+      "topic": "Ubuntu",
+      "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v12/icons/ubuntu.svg"
+    },
+    {
+      "year": [2004,2005,2006,2007,2008,2009,2010,2011,2012,2013,2014,2015,2016,2017,2018],
+      "topic": "RedHat Enterprise Linux",
+      "icon": "/redhat99.svg"
+    },
+    {
+      "year": [2019,2020,2021,2022,2023],
+      "topic": "RedHat Enterprise Linux",
+      "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v12/icons/redhat.svg"
+    },
+    {
+      "year": [2008,2009,2010,2011,2012,2013,2014,2015,2016,2017],
+      "topic": "CentOS & Scientific Linux",
+      "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v12/icons/centos.svg"
+    },
+    {
+      "year": [2020,2021,2022,2023,2024],
+      "topic": "Manjaro Linux",
+      "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v12/icons/manjaro.svg"
+    },
+    {
+      "year": [2011,2012,2013,2014,2015,2016,2017,2018,2019,2020,2021,2022,2023,2024],
+      "topic": "macOS",
+      "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v12/icons/apple.svg"
+    },
+    {
+      "year": [1998,1999,2000,2001,2002,2003,2004,2005,2006,2007,2008,2012,2013,2014,2015],
+      "topic": "Samba",
+      "icon": "/samba.svg"
     },
     {
       "year": [],
