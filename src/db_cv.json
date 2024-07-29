@@ -311,6 +311,66 @@
       "icon": "/samba.svg"
     },
     {
+      "year": [2009,2010,2011,2012],
+      "topic": "IBM AIX",
+      "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v12/icons/ibm.svg"
+    },
+    {
+      "year": [2009,2010,2011,2012],
+      "topic": "IBM x86 Servers",
+      "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v12/icons/ibm.svg"
+    },
+    {
+      "year": [2009,2010,2011,2012],
+      "topic": "IBM Storage Systems",
+      "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v12/icons/ibm.svg"
+    },
+    {
+      "year": [2009,2010,2011,2012],
+      "topic": "IBM General Parallel Filesystem",
+      "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v12/icons/ibm.svg"
+    },
+    {
+      "year": [2009,2010,2011,2012],
+      "topic": "IBM xCAT",
+      "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v12/icons/ibm.svg"
+    },
+    {
+      "year": [2009,2010,2011,2012],
+      "topic": "HP Storage Systems",
+      "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v12/icons/hp.svg"
+    },
+    {
+      "year": [2009,2010,2011,2012],
+      "topic": "HP x86 Servers",
+      "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v12/icons/hp.svg"
+    },
+    {
+      "year": [2009,2010,2011,2012],
+      "topic": "Supermicro x86 Servers",
+      "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v12/icons/supermicro.svg"
+    },
+    {
+      "year": [2008,2009],
+      "topic": "VMware Infrastructure 3",
+      "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v12/icons/vmware.svg"
+    },
+    {
+      "year": [2010,2011,2012],
+      "topic": "VMware vSphere 4",
+      "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v12/icons/vmware.svg"
+    },
+    {
+      "year": [2010,2011,2012],
+      "topic": "VMware View (Desktop Virt)",
+      "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v12/icons/vmware.svg"
+    },
+    {
+      "year": [2012],
+      "topic": "VMware vSphere 5",
+      "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v12/icons/vmware.svg"
+    },
+    {
       "year": [],
       "topic": "",
       "icon": ""
