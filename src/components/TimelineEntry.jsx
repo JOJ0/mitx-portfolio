@@ -25,11 +25,6 @@ export function TimelineEntriesFactory(props) {
       <TimelineEntry topic={entry.topic} image={entry.icon} key={index}/>
     );
   });
-  const deck =  (
-    <div className="">
-      {entries}
-    </div>
-  )
   return entries;
 }
 

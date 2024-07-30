@@ -2,8 +2,7 @@ export function TimelineBullet(props) {
   let hl = props.highlight;
 
   return(
-        <div className="col-md-3 text-center flex-column d-sm-flex">
-
+          <>
             <div className="row h-50">
                 <div className="col">&nbsp;</div>
                 <div className="col">&nbsp;</div>
@@ -17,8 +16,8 @@ export function TimelineBullet(props) {
                 <div className="col border-end order">&nbsp;</div>
                 <div className="col">&nbsp;</div>
             </div>
+        </>
 
-        </div>
   )
 }
 
