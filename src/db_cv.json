@@ -371,6 +371,31 @@
       "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v12/icons/vmware.svg"
     },
     {
+      "year": [2012,2013,2014,2015,2016,2017],
+      "topic": "Pacemaker Heartbeat HA-Clusters",
+      "icon": "/pacemaker.svg"
+    },
+    {
+      "year": [2012,2013,2014,2015,2016,2017],
+      "topic": "Distributed Redundant Block Device",
+      "icon": "/drbd.svg"
+    },
+    {
+      "year": [2015,2016,2017],
+      "topic": "LINSTOR (early adopter)",
+      "icon": "/linstor.svg"
+    },
+    {
+      "year": [2014,2015,2016,2017],
+      "topic": "OpenStack",
+      "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v12/icons/openstack.svg"
+    },
+    {
+      "year": [2014,2015,2016,2017],
+      "topic": "ManageIQ CloudForms ",
+      "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v12/icons/manageiq.svg"
+    },
+    {
       "year": [],
       "topic": "",
       "icon": ""
