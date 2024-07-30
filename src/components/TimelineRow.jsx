@@ -19,8 +19,10 @@ export const TimelineRow = (props) => {
 
   return (
     <div className="row">
-      <div className="col-md-3 text-center flex-column d-sm-flex">
-        <TimelineBullet caption={props.year} />
+      <div className="col-md-3">
+        <div className="text-center flex-column d-sm-flex">
+          <TimelineBullet caption={props.year} />
+        </div>
       </div>
       <TimelineEntriesFactory entries={filtered} />
     </div>
