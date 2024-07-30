@@ -19,7 +19,7 @@ export const TimelineRow = (props) => {
 
   return (
     <div className="row">
-      <div className="col-md-3">
+      <div className="col-12">
         <div className="text-center flex-column d-sm-flex">
           <TimelineBullet caption={props.year} />
         </div>
