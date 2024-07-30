@@ -266,12 +266,12 @@
       "icon": "/win2k8.svg"
     },
     {
-      "year": [1998,1999,2000,2001,2002,2003,2004,2022,2023],
+      "year": [1999,2000,2001,2002,2003,2004,2022,2023],
       "topic": "Debian GNU/Linux",
       "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v12/icons/debian.svg"
     },
     {
-      "year": [1998,2016,2017],
+      "year": [1998],
       "topic": "SuSE Linux",
       "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v12/icons/suse.svg"
     },
@@ -306,9 +306,14 @@
       "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v12/icons/apple.svg"
     },
     {
-      "year": [1998,1999,2000,2001,2002,2003,2004,2005,2006,2007,2008,2012,2013,2014,2015],
+      "year": [1999,2000,2001,2002,2003,2004,2005,2006,2007,2008,2012,2013,2014,2015],
       "topic": "Samba",
       "icon": "/samba.svg"
+    },
+    {
+      "year": [1999,2000,2001,2002,2003,2004,2005,2006,2022],
+      "topic": "Squid Cache",
+      "icon": "/squid.svg"
     },
     {
       "year": [2009,2010,2011,2012],
@@ -372,7 +377,7 @@
     },
     {
       "year": [2012,2013,2014,2015,2016,2017],
-      "topic": "Pacemaker Heartbeat HA-Clusters",
+      "topic": "Pacemaker Heartbeat Clusters",
       "icon": "/pacemaker.svg"
     },
     {
@@ -386,14 +391,39 @@
       "icon": "/linstor.svg"
     },
     {
+      "year": [2012,2013,2014,2015,2016,2017],
+      "topic": "LIO iSCSI Target",
+      "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v12/icons/linux.svg"
+    },
+    {
+      "year": [2013,2014,2015,2016,2017],
+      "topic": "RedHat Enterprise Virtualization",
+      "icon": "/rhv.svg"
+    },
+    {
+      "year": [2013,2014,2015,2016,2017],
+      "topic": "oVirt",
+      "icon": "/ovirt.svg"
+    },
+    {
       "year": [2014,2015,2016,2017],
       "topic": "OpenStack",
       "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v12/icons/openstack.svg"
     },
     {
+      "year": [2017],
+      "topic": "SuSE OpenStack Cloud",
+      "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v12/icons/suse.svg"
+    },
+    {
       "year": [2014,2015,2016,2017],
       "topic": "ManageIQ CloudForms ",
       "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v12/icons/manageiq.svg"
+    },
+    {
+      "year": [2015,2016,2017],
+      "topic": "OpenNebula",
+      "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v12/icons/opennebula.svg"
     },
     {
       "year": [],
