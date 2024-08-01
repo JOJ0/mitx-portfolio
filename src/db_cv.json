@@ -444,7 +444,37 @@
       "year": [2017,2018,2019,2020,2021,2022,2023],
       "topic": "Puppet",
       "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v12/icons/puppet.svg"
-    },  
+    },
+    {
+      "year": [2018,2019,2020,2021,2022,2023],
+      "topic": "Ansible",
+      "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v12/icons/ansible.svg"
+    },
+    {
+      "year": [2017,2018,2019,2020,2021,2022,2023],
+      "topic": "Nagios",
+      "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v12/icons/ agios.svg"
+    },
+    {
+      "year": [2017,2018,2019,2020,2021,2022,2023],
+      "topic": "Opsview",
+      "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v12/icons/opsview.svg"
+    },
+    {
+      "year": [2020,2021,2022,2023],
+      "topic": "Katello",
+      "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v12/icons/katello.svg"
+    },
+    {
+      "year": [2020,2021,2022,2023],
+      "topic": "Orcharhino",
+      "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v12/icons/orcharhino.svg"
+    },
+    {
+      "year": [2020,2021,2022,2023],
+      "topic": "RedHat Satellite",
+      "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v12/icons/redhatsatellite.svg"
+    },
     {
       "year": [],
       "topic": "",
