@@ -428,7 +428,7 @@
     {
       "year": [2017,2018,2019,2020,2021,2022,2023],
       "topic": "Foreman",
-      "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v12/icons/foreman.svg"
+      "icon": "/foreman.svg"
     },
     {
       "year": [2017,2018,2019,2020,2021,2022,2023],
@@ -438,7 +438,7 @@
     {
       "year": [2017,2018,2019,2020,2021,2022,2023],
       "topic": "Rsyslog",
-      "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v12/icons/rsyslog.svg"
+      "icon": "/rsyslog.svg"
     }, 
     {
       "year": [2017,2018,2019,2020,2021,2022,2023],
