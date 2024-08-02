@@ -453,12 +453,17 @@
     {
       "year": [2017,2018,2019,2020,2021,2022,2023],
       "topic": "Nagios",
-      "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v12/icons/ agios.svg"
+      "icon": "/nagios.svg"
     },
     {
       "year": [2017,2018,2019,2020,2021,2022,2023],
       "topic": "Opsview",
-      "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v12/icons/opsview.svg"
+      "icon": "/opsview.svg"
+    },
+    {
+      "year": [2015,2016,2017,2023],
+      "topic": "CheckMK",
+      "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v12/icons/checkmk.svg"
     },
     {
       "year": [2020,2021,2022,2023],
