@@ -10,7 +10,7 @@ function CvDev() {
   }
 
   return (
-    <Page title="CV.dev" subheading="an alternative approach to a CV - software development" content={rows} />
+    <Page title="CV.dev" subheading="an alternative approach to a CV - software development & agile tools" content={rows} />
   )
 }
 
