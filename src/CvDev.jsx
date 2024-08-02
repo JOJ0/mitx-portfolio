@@ -8,9 +8,11 @@ function CvDev() {
   for (var y=1994; y <= 2024; y++) {
     rows.push(<TimelineRow data={cv["dev"]} year={y} />);
   }
+  const reverseRows = rows.slice().reverse();
+
 
   return (
-    <Page title="CV.dev" subheading="an alternative approach to a CV - software development & agile tools" content={rows} />
+    <Page title="CV.dev" subheading="an alternative approach to a CV - software development & agile tools" content={reverseRows} />
   )
 }
 

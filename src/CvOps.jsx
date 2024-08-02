@@ -8,9 +8,10 @@ function CvOps() {
   for (var y=1998; y <= 2024; y++) {
     rows.push(<TimelineRow data={cv["ops"]} year={y} />);
   }
+  const reverseRows = rows.slice().reverse();
 
   return (
-    <Page title="CV.ops" subheading="an alternative approach to a CV - sysadmin & operating" content={rows} />
+    <Page title="CV.ops" subheading="an alternative approach to a CV - sysadmin & operating" content={reverseRows} />
   )
 }
 
