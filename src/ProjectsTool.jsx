@@ -5,7 +5,7 @@ import projects from './db_projects.json'
 
 function ProjectsTool() {
   const title = "Projects.Tool"
-  const subheading = "Smaller tools and utilities. Some unmaintained, mostly opinionated, often unsophisticated code. I still use some of them on a regular basis though. Fork it and HTH!"
+  const subheading = "smaller utilities I wrote for myself. Might be opinionated or unsophisticated code. Fork them! HTH!"
   const content = (
     <>
     <div className="row">
