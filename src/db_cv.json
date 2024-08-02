@@ -201,31 +201,6 @@
       "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v12/icons/redis.svg"
     },
     {
-      "year": [2023,2024],
-      "topic": "Heroku",
-      "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v12/icons/heroku.svg"
-    },
-    {
-      "year": [2023,2024],
-      "topic": "Amazon AWS S3",
-      "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v12/icons/amazons3.svg"
-    },
-    {
-      "year": [2023,2024],
-      "topic": "Amazon AWS EC2",
-      "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v12/icons/amazonec2.svg"
-    },
-    {
-      "year": [2023,2024],
-      "topic": "Docker Compose",
-      "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v12/icons/docker.svg"
-    },
-    {
-      "year": [2023,2024],
-      "topic": "Docker Build",
-      "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v12/icons/docker.svg"
-    },
-    {
       "year": [2018,2019,2020,2021,2022,2023],
       "topic": "Atlassian Confluence",
       "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v12/icons/confluence.svg"
@@ -494,6 +469,31 @@
       "year": [2020,2021,2022,2023],
       "topic": "RedHat Satellite",
       "icon": "/satellite.svg"
+    },
+    {
+      "year": [2023,2024],
+      "topic": "Heroku",
+      "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v12/icons/heroku.svg"
+    },
+    {
+      "year": [2023,2024],
+      "topic": "Amazon AWS S3",
+      "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v12/icons/amazons3.svg"
+    },
+    {
+      "year": [2023,2024],
+      "topic": "Amazon AWS EC2",
+      "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v12/icons/amazonec2.svg"
+    },
+    {
+      "year": [2023,2024],
+      "topic": "Docker Compose",
+      "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v12/icons/docker.svg"
+    },
+    {
+      "year": [2023,2024],
+      "topic": "Docker Build",
+      "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v12/icons/docker.svg"
     },
     {
       "year": [],
