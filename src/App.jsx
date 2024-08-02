@@ -8,12 +8,12 @@ function App() {
   return (
     <>
       <div className="wrapper-head">
-        <div>
+        <div className="container-xs">
           <Nav />
         </div>
       </div>
       <div className="wrapper-main">
-        <div className="container">
+        <div className="container-sm">
           <Outlet />
         </div>
       </div>
