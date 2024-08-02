@@ -473,12 +473,12 @@
     {
       "year": [2020,2021,2022,2023],
       "topic": "Orcharhino",
-      "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v12/icons/orcharhino.svg"
+      "icon": "orcharhino.svg"
     },
     {
       "year": [2020,2021,2022,2023],
       "topic": "RedHat Satellite",
-      "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v12/icons/redhatsatellite.svg"
+      "icon": "/satellite.svg"
     },
     {
       "year": [],
