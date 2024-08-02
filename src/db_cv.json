@@ -226,6 +226,21 @@
       "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v12/icons/docker.svg"
     },
     {
+      "year": [2018,2019,2020,2021,2022,2023],
+      "topic": "Atlassian Confluence",
+      "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v12/icons/confluence.svg"
+    },
+    {
+      "year": [2020,2021,2022,2023],
+      "topic": "Atlassian BitBucket",
+      "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v12/icons/bitbucket.svg"
+    },
+    {
+      "year": [2020,2021,2022,2023],
+      "topic": "Atlassian Jira",
+      "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v12/icons/jira.svg"
+    },
+    {
       "year": [],
       "topic": "",
       "icon": ""
