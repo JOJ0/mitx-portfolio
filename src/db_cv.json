@@ -488,7 +488,7 @@
     {
       "year": [2023,2024],
       "topic": "Docker Compose",
-      "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v12/icons/docker.svg"
+      "icon": "/dockercompose.svg"
     },
     {
       "year": [2023,2024],
