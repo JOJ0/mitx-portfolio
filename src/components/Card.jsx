@@ -3,7 +3,14 @@ export function Card(props) {
     <div className="card mb-3" width="10px">
       {props.header && (<div className="card-header">{props.header}</div>)}
       <div className="card-body">
+        {props.language && (
+          <div className="float-end text-dark">
+            <img className="" src={props.language} />
+          </div>
+        )}
+
         {props.title && (<h5 className="card-title">{props.title}</h5>)}
+
         <p className="card-text">
           {props.text && (props.text)}
         </p>
