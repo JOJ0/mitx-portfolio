@@ -15,8 +15,7 @@ function Home() {
             Hi, I'm Jojo. I develop and maintain Python Open Source software. I have about 10 years experience of Python programming and 5 in project leadership, code review, and supporting communities.
           </p>
           <p>
-            I use Python as a DevOps tool as well - one interesting experience on a recent job was writing an application that interacts with in-house API's to help install and orchestrate KVM Virtual Machines.
-          </p>
+            I use Python as a DevOps tool as well. By interfacing with loads of REST-APIs over the years, I gained a very strong understanding of how they are designed. By now I've written connectors between them, learned how to use awesome tools like Swagger and coded my own REST-APIs. I use JavaScript as well as Python for that.</p>
           <p>
             When I code websites, currently I would use a modern approach using JavaScript, Bootstrap and React.js for that. Express.js if a JavaScript backend is desired. In the past I've coded and still maintain Python based web solutions (Flask, Django, Wagtail).
           </p>
