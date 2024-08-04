@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom'
 import Page from './components/Page.jsx'
-import portrait01 from '~assets/portrait.png'
+import portrait01 from '~assets/IMG_6738_crop1.jpg'
 
 function Home() {
   const content = (
