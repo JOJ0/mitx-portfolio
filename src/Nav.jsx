@@ -111,6 +111,17 @@ function Nav() {
               </NavLink>
             </li>
 
+            <li className="nav-item">
+              <NavLink className="nav-link d-md-none" to="/about">
+                <span data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                  Why
+                </span>
+              </NavLink>
+              <NavLink className="nav-link d-none d-md-block" to="/Contact">
+                  Contact
+              </NavLink>
+            </li>
+
           </ul>
         </div>
 
