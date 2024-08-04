@@ -17,7 +17,7 @@ function Home() {
           <p>
             I use Python as a DevOps tool as well. By interfacing with loads of REST-APIs over the years, I gained a very strong understanding of how they are designed. By now I've written connectors between them, learned how to use awesome tools like Swagger and coded my own REST-APIs. I use JavaScript as well as Python for that.</p>
           <p>
-            When I code websites, currently I would use a modern approach using JavaScript, Bootstrap and React.js for that. Express.js if a JavaScript backend is desired. In the past I've coded and still maintain Python based web solutions (Flask, Django, Wagtail).
+            When I code websites, currently I prefer a modern approach using JavaScript, Bootstrap and React.js. Express.js if a JavaScript backend is desired. In the past I've coded and still maintain Python based web solutions (Flask, Django, Wagtail).
           </p>
           <p>
             With a senior/master level background in enterprise system administration of all kinds of (mostly) Open Source based solutions, I'm not afraid of handling mission-critical servers, platforms and app-stacks. I've seen it all.
