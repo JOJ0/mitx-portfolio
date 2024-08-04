@@ -476,6 +476,16 @@
       "icon": "/satellite.svg"
     },
     {
+      "year": [2022,2023],
+      "topic": "RedHat OpenShift",
+      "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v12/icons/redhatopenshift.svg"
+    },
+    {
+      "year": [2022,2023],
+      "topic": "Kubernetes",
+      "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v12/icons/kubernetes.svg"
+    },
+    {
       "year": [2023,2024],
       "topic": "Heroku",
       "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v12/icons/heroku.svg"
