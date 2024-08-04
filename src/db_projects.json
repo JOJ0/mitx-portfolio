@@ -38,7 +38,7 @@
   "foss": [
     {
       "title": "synadm",
-      "text": "The Admin CLI for Synapse (a communication server based on the Matrix specification)",
+      "text": "The Admin CLI for Synapse - a chat & collaboration server based on the Matrix specification",
       "repo": "https://github.com/JOJ0/synadm",
       "run": "",
       "docs": "https://synadm.readthedocs.io",
@@ -47,7 +47,7 @@
     },
     {
       "title": "python3-discogs-client",
-      "text": "The Python library for accessing the Discogs API (the worlds [probably] largest free online database and marketplace of music releases",
+      "text": "The Python library for accessing the Discogs API - the worlds probably largest free online database and marketplace of music releases",
       "repo": "https://github.com/joalla/discogs_client",
       "run": "",
       "docs": "https://python3-discogs-client.readthedocs.io",
