@@ -14,10 +14,10 @@ function CvDev() {
   const content = (
     <>
     <div className="row">
-      <p>Find out which programming languages and frameworks I've been using
-      over the years. For public/private clouds experience and build-related
-      things, also have a look at <Link
-      to="/cvops">CV.ops</Link></p>
+      <p>Programming languages, frameworks and databases I've been using over
+      the years. Usually frameworks also state which languages I used them
+      with. For container-, cloud- and build-related things, also
+      have a look at <Link to="/cvops">CV.ops</Link></p>
     </div>
     {reverseRows}
     </>
