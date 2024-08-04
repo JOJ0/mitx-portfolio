@@ -14,9 +14,8 @@ function CvDev() {
   const content = (
     <>
     <div className="row">
-      <p>Programming languages, frameworks and databases I've been using over
-      the years. Usually frameworks also state which languages I used them
-      with. For container-, cloud- and build-related things, also
+      <p>Programming languages, frameworks, libraries, databases I've been
+      using over the years. For container-, cloud- and build-related things,
       have a look at <Link to="/cvops">CV.ops</Link></p>
     </div>
     {reverseRows}

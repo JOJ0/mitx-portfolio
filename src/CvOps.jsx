@@ -14,9 +14,11 @@ function CvOps() {
   const content = (
     <>
     <div className="row">
-      <p>System management platforms, operating systems and classic network
-      services I've been managing over the years. Also "Infrastructure as Code" tools (eg Ansible) are located here. For agile tools,
-      documentation systems, actual programming languages & shells, have a look at <Link to="/cvdev">CV.dev</Link></p>
+      <p>System management platforms, operating systems, services and tools I've
+      been managing/using over the years. "Infrastructure as Code"
+      tools (eg Ansible) are located here too, for agile tools, documentation
+      systems, actual programming languages & shells, have a look at <Link
+      to="/cvdev">CV.dev</Link></p>
     </div>
     {reverseRows}
     </>
