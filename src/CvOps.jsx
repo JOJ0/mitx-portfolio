@@ -17,7 +17,7 @@ function CvOps() {
       <p>System management platforms, operating systems, services and tools I've
       been managing/using over the years. "Infrastructure as Code"
       tools (eg Ansible) are located here too, for agile tools, documentation
-      systems, actual programming languages & shells, have a look at <Link
+      systems, databases, actual programming languages & shells, have a look at <Link
       to="/cvdev">CV.dev</Link></p>
     </div>
     {reverseRows}
@@ -25,7 +25,7 @@ function CvOps() {
   );
 
   return (
-    <Page title="CV.ops" subheading="an alternative approach to a CV - sysadmin & operating" content={content} />
+    <Page title="CV.ops" subheading="an alternative approach on a CV - sysadmin & operating" content={content} />
   )
 }
 

@@ -14,7 +14,7 @@ function CvDev() {
   const content = (
     <>
     <div className="row">
-      <p>Programming languages, frameworks, libraries, databases I've been
+      <p>Programming languages, frameworks, libraries and databases I've been
       using over the years. For container-, cloud- and build-related things,
       have a look at <Link to="/cvops">CV.ops</Link></p>
     </div>
@@ -24,7 +24,7 @@ function CvDev() {
 
 
   return (
-    <Page title="CV.dev" subheading="an alternative approach to a CV - software development" content={content} />
+    <Page title="CV.dev" subheading="an alternative approach on a CV - software development" content={content} />
   )
 }
 
