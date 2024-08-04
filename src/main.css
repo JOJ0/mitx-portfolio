@@ -99,6 +99,15 @@ h1, h2, h3, h4, h5, h6 {
 p {
   text-align: justify;
 }
+.center {
+  text-align: center;
+}
+.right {
+  text-align: right;
+}
+.left {
+  text-align: left;
+}
 
 .card {
 }
