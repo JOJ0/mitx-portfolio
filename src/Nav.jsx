@@ -114,7 +114,7 @@ function Nav() {
             <li className="nav-item">
               <NavLink className="nav-link d-md-none" to="/about">
                 <span data-bs-toggle="collapse" data-bs-target="#navbarNav">
-                  Why
+                  Contact
                 </span>
               </NavLink>
               <NavLink className="nav-link d-none d-md-block" to="/Contact">
