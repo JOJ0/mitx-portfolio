@@ -11,9 +11,9 @@ export function TimelineEntry(props) {
         <img className="card-img-top" src={ props.image } />
         <div className="card-body p-2">
           <div className={hl ? "float-end text-success" : "float-end text-dark"}>{ props.topright }</div>
-            <h6 className={hl ? "card-title card-title-timeline text-success text-center" : "card-title card-title-timeline text-dark text-center"}>{ props.topic }</h6>
-          </div>
+          <h6 className={hl ? "card-title card-title-timeline text-success text-center" : "card-title card-title-timeline text-dark text-center"}>{ props.topic }</h6>
         </div>
+      </div>
     </div>
   )
 }
