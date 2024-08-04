@@ -79,6 +79,7 @@ a:hover, a:active {
 body {
   font-family: 'AR One Sans', sans-serif;
   letter-spacing: 0.4px;
+  line-height: 1.2;
 }
 
 .navbar-nav {
