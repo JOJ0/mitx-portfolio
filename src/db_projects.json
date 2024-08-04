@@ -5,7 +5,7 @@
       "text": "Generates PacMen that auto-move around the screen.",
       "repo": "http://github.com/JOJ0/mitx-pacmen",
       "run": "https://joj0.github.io/mitx-pacmen",
-      "language": "JavaScript/HTML/CSS"
+      "language": "https://cdn.jsdelivr.net/npm/simple-icons@v12/icons/javascript.svg"
     },
     {
       "title": "Eye Exercise",
@@ -14,7 +14,7 @@
       "run": "https://joj0.github.io/mitx-eye",
       "docs": "",
       "website": "",
-      "language": "JavaScript/HTML/CSS"
+      "language": "https://cdn.jsdelivr.net/npm/simple-icons@v12/icons/javascript.svg"
     },
     {
       "title": "Real Time Bus Tracker Exercise",
@@ -23,7 +23,7 @@
       "docs": "https://github.com/JOJ0/mitx-bustracker#how-to-run",
       "run": "",
       "website": "",
-      "language": "JavaScript/HTML/CSS"
+      "language": "https://cdn.jsdelivr.net/npm/simple-icons@v12/icons/javascript.svg"
     },
     {
       "title": "Bad Bank Exercise",
@@ -32,7 +32,7 @@
       "run": "",
       "docs": "",
       "website": "",
-      "language": "ReactJS"
+      "language": "https://cdn.jsdelivr.net/npm/simple-icons@v12/icons/react.svg"
     }
   ],
   "foss": [
@@ -43,7 +43,8 @@
       "run": "",
       "docs": "https://synadm.readthedocs.io",
       "website": "",
-      "members": "3"
+      "members": "3",
+      "language": "https://cdn.jsdelivr.net/npm/simple-icons@v12/icons/python.svg"
     },
     {
       "title": "python3-discogs-client",
@@ -52,8 +53,8 @@
       "run": "",
       "docs": "https://python3-discogs-client.readthedocs.io",
       "website": "",
-      "language": "Python",
-      "members": "4"
+      "members": "4",
+      "language": "https://cdn.jsdelivr.net/npm/simple-icons@v12/icons/python.svg"
     },
     {
       "title": "beets",
@@ -62,8 +63,8 @@
       "run": "",
       "docs": "https://beets.readthedocs.io/en/latest",
       "website": "https://beets.io",
-      "language": "Python",
-      "members": "30+"
+      "members": "40+",
+      "language": "https://cdn.jsdelivr.net/npm/simple-icons@v12/icons/python.svg"
     },
     {
       "title": "DiscoDOS",
@@ -72,8 +73,8 @@
       "run": "",
       "docs": "https://discodos.readthedocs.io",
       "website": "https://discodos.jojotodos.net",
-      "language": "Python",
-      "members": "1"
+      "members": "1",
+      "language": "https://cdn.jsdelivr.net/npm/simple-icons@v12/icons/python.svg"
     },
     {
       "title": "beets-xtractor",
@@ -82,8 +83,8 @@
       "run": "",
       "docs": "https://github.com/adamjakab/BeetsPluginXtractor/blob/master/README.md",
       "website": "",
-      "language": "Python",
-      "members": "2"
+      "members": "2",
+      "language": "https://cdn.jsdelivr.net/npm/simple-icons@v12/icons/python.svg"
     },
     {
       "title": "beets-dirfields",
@@ -92,8 +93,8 @@
       "run": "",
       "docs": "https://github.com/JOJ0/beets-dirfields/blob/master/README.md",
       "website": "",
-      "language": "Python",
-      "members": "1"
+      "members": "1",
+      "language": "https://cdn.jsdelivr.net/npm/simple-icons@v12/icons/python.svg"
     }
   ],
   "tool": [
@@ -102,55 +103,55 @@
       "text": "A face recognition and GIF slideshow tool. There was none out there that suited my needs, so I created one. Have fun!",
       "repo": "https://github.com/JOJ0/giface",
       "run": "",
-      "language": "Python"
+      "language": "https://cdn.jsdelivr.net/npm/simple-icons@v12/icons/python.svg"
     },
     {
       "title": "Jekyll Helpers",
       "text": "Helpers to generate picture galleries for Jekyll based websites/blogs",
       "repo": "https://github.com/JOJ0/jekyll-helpers",
       "run": "",
-      "language": "Bash/Zsh/Python"
+      "language": "https://cdn.jsdelivr.net/npm/simple-icons@v12/icons/python.svg"
     },
     {
       "title": "Transaction Cutter",
       "text": "Cuts out the relevant pieces of transaction CSV files of a certain bank or PayPal - my first Python project ever :-O",
       "repo": "https://github.com/JOJ0/transaction-cutter",
       "run": "",
-      "language": "Python"
+      "language": "https://cdn.jsdelivr.net/npm/simple-icons@v12/icons/python.svg"
     },
     {
       "title": "Audio Utils",
       "text": "Shell scripts to mass-manipulate audio and video files",
       "repo": "https://github.com/JOJ0/audio-utils",
       "run": "",
-      "language": "Bash/Zsh"
+      "language": "https://cdn.jsdelivr.net/npm/simple-icons@v12/icons/zsh.svg"
     },
     {
       "title": "Mailchimp Members",
       "text": "Unpacks a mailchimp members list zip file, filters columns and writes new csv file",
       "repo": "https://github.com/JOJ0/mailchimp-members",
       "run": "",
-      "language": "Python"
+      "language": "https://cdn.jsdelivr.net/npm/simple-icons@v12/icons/python.svg"
     },
     {
       "title": "GitHub Projects Util",
       "text": "Uses PyGithub to retrieve \"GitHub Project\" (aka kanban) cards",
       "repo": "https://github.com/JOJ0/github-util",
       "run": "",
-      "language": "Python"
+      "language": "https://cdn.jsdelivr.net/npm/simple-icons@v12/icons/python.svg"
     },
     {
       "title": "MPC 1000 Sequence Util",
       "text": "CLI utility to manipulate sequence files of an AKAI MPC 1000 sampler device",
       "repo": "https://github.com/JOJ0/mpc1k-seq",
       "run": "",
-      "language": "Python"
+      "language": "https://cdn.jsdelivr.net/npm/simple-icons@v12/icons/python.svg"
     },
     {
       "title": "APC mini Controller Script",
       "text": "Ableton Live 9.x controller script for the \"Akai MPC mini\"",
       "repo": "https://github.com/JOJ0/ableton-live9-remote-scripts",
-      "language": "Python"
+      "language": "https://cdn.jsdelivr.net/npm/simple-icons@v12/icons/python.svg"
     }
   ]
 }

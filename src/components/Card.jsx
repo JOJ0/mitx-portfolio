@@ -5,7 +5,7 @@ export function Card(props) {
       <div className="card-body">
         {props.language && (
           <div className="float-end text-dark">
-            <img className="" src={props.language} />
+            <img className="mt-0" src={props.language} width="20" height="20" />
           </div>
         )}
 
