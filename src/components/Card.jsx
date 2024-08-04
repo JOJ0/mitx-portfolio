@@ -10,7 +10,7 @@ export function Card(props) {
         <p className="mt-o mb-0">
           {props.repo && (<a href={props.repo} className="btn btn-outline-secondary">Repo</a>)}
           {props.run && (<a href={props.run} className="btn btn-secondary">Run</a>)}
-          {props.docs && (<a href={props.run} className="btn btn-secondary">Docs</a>)}
+          {props.docs && (<a href={props.docs} className="btn btn-secondary">Docs</a>)}
           {props.website && (<a href={props.website} className="btn btn-dark">Website</a>)}
         </p>
           {props.members && (<div className="card-status"><em>Members: {props.members}</em></div>)}
@@ -30,6 +30,9 @@ export const CardColumns = (props) => {
           text={col.text}
           repo={col.repo}
           run={col.run}
+          docs={col.docs}
+          website={col.website}
+          members={col.members}
           language={col.language}
         />
       </div>
