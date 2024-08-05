@@ -126,6 +126,11 @@
       "icon": "/click.webp"
     },
     {
+      "year": [2021,2022,2023,2024],
+      "topic": "Zsh",
+      "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v12/icons/zsh.svg"
+    },
+    {
       "year": [2022],
       "topic": "Java",
       "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v12/icons/oracle.svg"
