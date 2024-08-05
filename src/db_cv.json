@@ -206,6 +206,11 @@
       "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v12/icons/graphql.svg"
     },
     {
+      "year": [2023,2024],
+      "topic": "JavaScript dotenv",
+      "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v12/icons/dotenv.svg"
+    },
+    {
       "year": [2018,2019,2020,2021,2022,2023],
       "topic": "Atlassian Confluence",
       "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v12/icons/confluence.svg"
