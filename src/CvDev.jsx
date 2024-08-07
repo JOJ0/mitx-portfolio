@@ -16,7 +16,7 @@ function CvDev() {
     <div className="row">
       <p>Programming languages, frameworks, libraries and databases I've been
       using over the years. For container-, cloud- and build-related things,
-      have a look at <Link to="/cvops">CV.ops</Link></p>
+      see <Link to="/cvops">CV.ops</Link></p>
     </div>
     {reverseRows}
     </>
