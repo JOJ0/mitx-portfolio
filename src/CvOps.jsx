@@ -29,7 +29,7 @@ function CvOps() {
   );
 
   return (
-    <Page title="CV.ops" subheading="an alternative approach on a CV - sysadmin & operating" content={content} />
+    <Page title="CV.ops" subheading="an alternative approach on a CV" content={content} />
   )
 }
 

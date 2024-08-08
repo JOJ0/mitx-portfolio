@@ -9,7 +9,7 @@ function CvArt() {
   }
 
   return (
-    <Page title="CV.art" subheading="find an alternative approach on a CV here soon - art related projects." content={rows} />
+    <Page title="CV.art" subheading="find an alternative approach on a CV here soon" content={rows} />
   )
 }
 
