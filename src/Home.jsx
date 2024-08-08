@@ -1,13 +1,22 @@
 import { Link } from 'react-router-dom'
+import { useState } from 'react'
 import Page from './components/Page.jsx'
 import portrait01 from '~assets/IMG_6738_crop1.jpg'
+import giface from '~assets/GIFace_08-08-2024_selected_portrait_first.gif'
 
 function Home() {
+  const [overPic, setOverPic] = useState(false);
+
   const content = (
     <div className="row">
       <div className="col">
-        <div>
-          <img className="img-fluid rounded mx-3 mt-1 mb-0 float-end me-0 portrait-max " src={portrait01} alt="Portrait" />
+        <div
+          onMouseOver={() => setOverPic(true)}
+          onMouseOut={() => setOverPic(false)}
+        >
+          <img className="img-fluid rounded mx-3 mt-1 mb-0 float-end me-0 portrait-max "
+           src={overPic ? giface : portrait01} alt="Portrait or Giface"
+          />
         </div>
 
         <div>
