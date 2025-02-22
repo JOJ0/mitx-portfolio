@@ -58,7 +58,7 @@
     },
     {
       "title": "beets",
-      "text": "A sophsticated media file tagger and music library manager written in Python",
+      "text": "Media library management system for obsessive music geeks.",
       "repo": "https://github.com/beetbox/beets",
       "run": "",
       "docs": "https://beets.readthedocs.io/en/latest",
@@ -68,7 +68,7 @@
     },
     {
       "title": "DiscoDOS",
-      "text": "A CLI tool for DJ's and record collectors based on the discogs.com collection feature",
+      "text": "DJ and record collectors' toolbox for Discogs",
       "repo": "https://github.com/JOJ0/discodos",
       "run": "",
       "docs": "https://discodos.readthedocs.io",
@@ -78,7 +78,7 @@
     },
     {
       "title": "beets-xtractor",
-      "text": "A beets plugin based on the Essentia project of Barcelona's Universitat Pompeu Fabra",
+      "text": "beets plugin to extract audio features of your music - based on the Essentia project of Barcelona's Universitat Pompeu Fabra",
       "repo": "https://github.com/adamjakab/BeetsPluginXtractor",
       "run": "",
       "docs": "https://github.com/adamjakab/BeetsPluginXtractor/blob/master/README.md",
@@ -88,7 +88,7 @@
     },
     {
       "title": "beets-dirfields",
-      "text": "A beets plugin that remembers where files where originally stored on disk",
+      "text": "beets plugin that remembers where files where originally stored on disk",
       "repo": "https://github.com/JOJ0/beets-dirfields",
       "run": "",
       "docs": "https://github.com/JOJ0/beets-dirfields/blob/master/README.md",
@@ -100,7 +100,7 @@
   "tool": [
     {
       "title": "GIFace",
-      "text": "A face recognition and GIF slideshow tool. There was none out there that suited my needs, so I created one. Have fun!",
+      "text": "Face recognition and GIF slideshow tool. There was none out there that suited my needs, so I created one. Have fun!",
       "repo": "https://github.com/JOJ0/giface",
       "run": "",
       "language": "https://cdn.jsdelivr.net/npm/simple-icons@v12/icons/python.svg"
