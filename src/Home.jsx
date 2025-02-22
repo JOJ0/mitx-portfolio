@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom'
 import { useState } from 'react'
 import Page from './components/Page.jsx'
-import portrait01 from '~assets/IMG_6738_crop1.jpg'
+import portrait01 from '~assets/IMG_4611.jpg'
 import giface from '~assets/GIFace_08-09-2024_selected_portrait_first_wm.gif'
 
 function Home() {
