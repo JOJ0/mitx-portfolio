@@ -21,22 +21,22 @@ function Home() {
 
         <div>
           <p>
-            Hi, I'm Jojo. I develop and maintain Python Open Source software. I have about 10 years experience of Python programming and 5 in project leadership, code review, and supporting communities.
+          Hi, I’m Jojo, a Software Engineer with a background in enterprise system administration. Currently, I work as a Full-Stack programmer in network automation. I also develop and maintain Open Source Python software. I have about 10 years of experience in Python programming and 5 years in project leadership, code review, and supporting Open Source communities.
           </p>
           <p>
-            I use Python as a DevOps tool as well. By interfacing with loads of REST-APIs over the years, I gained a very strong understanding of how they are designed. By now I've written connectors between them, learned how to use awesome tools like Swagger and coded my own REST-APIs. I use JavaScript as well as Python for that.</p>
+            I have extensive experience in interfacing with and designing REST APIs, as well as writing backend code in general, using both JavaScript and Python. I have worked with databases ranging from desktop to enterprise level, including PostgreSQL and SQLite.</p>
           <p>
-            When I code websites, currently I prefer a modern approach using JavaScript, Bootstrap and React.js. Express.js if a JavaScript backend is desired. In the past I've coded and still maintain Python based web solutions (Flask, Django, Wagtail).
+            When I code websites, currently I prefer using JavaScript, Bootstrap and React.js. In the past I've coded and still maintain Python based web solutions (Flask, Django, Wagtail). On my current day-job I write Django front- and backend code.
           </p>
           <p>
-            With a senior/master level background in enterprise system administration of all kinds of (mostly) Open Source based solutions, I'm not afraid of handling mission-critical servers, platforms and app-stacks. I've seen it all.
+            With a senior- to master-level expertise in enterprise system administration, primarily using Open Source solutions, I’m not afraid to handle mission-critical servers, platforms, and app stacks—I’ve seen it all. Designing UNIX-style CLI tools is probably what led me to coding Python professionally.
           </p>
           <p>
-            Since DevOps and automation became popular in my last jobs, I had the chance to focus on that and became quite good in using CI/CD, Puppet, Ansible, Docker and even further improve my Python skills. "Infrastructure as Code Developer" was the buzzwordy title I earned back then. One of my main takeaways from those experiences is that...
+            Since DevOps and automation became popular in my recent jobs, I had the chance to focus on that for a while, becoming quite skilled in CI/CD, Puppet, Ansible, Docker, and even further improving my Python skills. "Infrastructure as Code Developer" was the buzzwordy title I earned back then. One of my main takeaways from those experiences is that...
           </p>
 
           <p className="center">
-            <strong><em><span class="badge text-bg-dark">If something's not tracked in version control it's not existing!</span>
+            <strong><em><span class="badge text-bg-dark">If something's not tracked in version control it doesn't exist!</span>
             </em></strong>
           </p>
 
