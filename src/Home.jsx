@@ -32,44 +32,59 @@ function Home() {
             With a senior/master level background in enterprise system administration of all kinds of (mostly) Open Source based solutions, I'm not afraid of handling mission-critical servers, platforms and app-stacks. I've seen it all.
           </p>
           <p>
-            Since DevOps and automation became popular in my last jobs, I had the chance to focus on that and became quite good in using CI/CD, Puppet, Ansible, Docker and even further improve my Python skills. "Infrastructure as Code Developer" was the buzzwordy title I earned last..... 
+            Since DevOps and automation became popular in my last jobs, I had the chance to focus on that and became quite good in using CI/CD, Puppet, Ansible, Docker and even further improve my Python skills. "Infrastructure as Code Developer" was the buzzwordy title I earned back then. One of my main takeaways from those experiences is that...
           </p>
 
           <p className="center">
-            <strong><em>If something's not tracked in version control it's not existing!</em></strong>
+            <strong><em><span class="badge text-bg-dark">If something's not tracked in version control it's not existing!</span>
+            </em></strong>
           </p>
 
           <div className="row">
-            <div className="col-8">
+            <div className="col-6">
               <p className="left">
-                Get an overview of <Link to="projects/foss">the FOSS projects I'm involved with</Link>, and find out what <Link to="projects/corporate">corporate (closed source) projects I'm proud of - WIP/coming soon</Link>.
+                <span className="badge text-bg-secondary">
+                  <Link to="projects/foss">Free and Open Source Work</Link>
+                </span>
               </p>
             </div>
-          </div>
-
-          <div className="row justify-content-end">
-            <div className="col-8">
+            <div className="col-6">
               <p className="right">
-                An overview of my programming skill set is found  <Link to="cvdev">in this alternative approach on a CV</Link>.
+                <span className="badge text-bg-secondary">
+                  <Link to="projects/corporate">Closed source and voluntary projects</Link>
+                </span>
+
               </p>
             </div>
           </div>
 
           <div className="row">
-            <div className="col-8">
-              <p className="left">
-                Similarily my ops and sysadmin experience <Link to="cvops">is summarized here</Link>.
+            <div className="col-12">
+              <p className="center">
+                <span className="badge text-bg-secondary">
+                  <Link to="cvdev">Programming skill set</Link>
+                </span>
               </p>
             </div>
           </div>
 
-          <div className="row justify-content-end">
-            <div className="col-8">
+          <div className="row">
+            <div className="col-6">
+              <p className="left">
+                <span className="badge text-bg-secondary">
+                  <Link to="cvops">Ops and sysadmin experience</Link>
+                </span>
+              </p>
+            </div>
+            <div className="col-6">
               <p className="right">
-                Last but surely not least I have some experience in the music and art scene. I've organized <Link to="cvart">music events, DJ nights and participated in art projects - WIP/coming soon</Link>.
+                <span className="badge text-bg-secondary">
+                  <Link to="cvart">Music and art projects</Link>
+                </span>
               </p>
             </div>
           </div>
+
 
         </div>
       </div>
