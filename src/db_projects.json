@@ -88,7 +88,7 @@
     },
     {
       "title": "beets-dirfields",
-      "text": "beets plugin that remembers where files where originally stored on disk",
+      "text": "beets plugin that remembers where files were stored on disk before import",
       "repo": "https://github.com/JOJ0/beets-dirfields",
       "run": "",
       "docs": "https://github.com/JOJ0/beets-dirfields/blob/master/README.md",
