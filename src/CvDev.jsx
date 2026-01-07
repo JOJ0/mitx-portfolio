@@ -6,7 +6,7 @@ import cv from './db_cv.json';
 
 function CvDev() {
   const rows = [];
-  for (var y=1994; y <= 2024; y++) {
+  for (var y=1994; y <= 2026; y++) {
     rows.push(<TimelineRow data={cv["dev"]} year={y} />);
   }
   const reverseRows = rows.slice().reverse();

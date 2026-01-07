@@ -4,7 +4,7 @@ import cv from './db_cv.json';
 
 function CvArt() {
   const rows = [];
-  for (var y=2005; y <= 2024; y++) {
+  for (var y=2005; y <= 2025; y++) {
     rows.push(<TimelineRow data={cv["art"]} year={y} />);
   }
 

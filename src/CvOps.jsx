@@ -6,7 +6,7 @@ import cv from './db_cv.json';
 
 function CvOps() {
   const rows = [];
-  for (var y=1998; y <= 2024; y++) {
+  for (var y=1998; y <= 2025; y++) {
     rows.push(<TimelineRow data={cv["ops"]} year={y} />);
   }
   const reverseRows = rows.slice().reverse();
