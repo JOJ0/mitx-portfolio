@@ -3,7 +3,7 @@ function Page({title, subheading, content}) {
 
   return (
     <>
-      <div className="row">
+      <div className="row d-md-none">
         <div className="col">
           <header>
             <h1 className="font-weight-light text-muted py-3">

@@ -138,7 +138,7 @@ function Nav() {
 
           </ul>
           {currentTitle && (
-            <span className="navbar-page-title d-none d-md-inline-block ms-md-auto text-muted text-truncate">
+            <span className="navbar-page-title d-none d-md-inline-block ms-md-auto text-muted fw-light text-truncate py-3">
               {currentTitle}
             </span>
           )}
