@@ -93,7 +93,7 @@ function Home() {
   )
 
   return (
-    <Page title="Bio" subheading="graphy" content={content} />
+    <Page title="Bio" subheading="" content={content} />
   )
 }
 

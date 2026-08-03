@@ -5,7 +5,7 @@ import projects from './db_projects.json'
 
 function ProjectsFoss() {
   const title = "Projects.FOSS"
-  const subheading ="(Free and) open-source software projects I'm involved with."
+  const subheading ="Open Source projects I'm involved with."
 
   const content = (
     <>
