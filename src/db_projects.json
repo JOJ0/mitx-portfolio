@@ -1,38 +1,20 @@
 {
   "exercise": [
     {
-      "title": "PacMen Exercise",
-      "text": "Generates PacMen that auto-move around the screen.",
+      "title": "PacMenIsh",
+      "text": "Generates PacMen and random other stuff that auto-moves around the screen.",
       "repo": "http://github.com/JOJ0/mitx-pacmen",
       "run": "https://joj0.github.io/mitx-pacmen",
       "language": "https://cdn.jsdelivr.net/npm/simple-icons@v12/icons/javascript.svg"
     },
     {
-      "title": "Eye Exercise",
+      "title": "Xeyes Clone",
       "text": "Like Xwindows Xeyes, but in the web browser",
       "repo": "http://github.com/JOJ0/mitx-eye",
       "run": "https://joj0.github.io/mitx-eye",
       "docs": "",
       "website": "",
       "language": "https://cdn.jsdelivr.net/npm/simple-icons@v12/icons/javascript.svg"
-    },
-    {
-      "title": "Real Time Bus Tracker Exercise",
-      "text": "Watch where busses currently are driving in Boston/Massachusetts on an embedded Google Map.",
-      "repo": "http://github.com/JOJ0/mitx-bustracker",
-      "docs": "https://github.com/JOJ0/mitx-bustracker#how-to-run",
-      "run": "",
-      "website": "",
-      "language": "https://cdn.jsdelivr.net/npm/simple-icons@v12/icons/javascript.svg"
-    },
-    {
-      "title": "Bad Bank Exercise",
-      "text": "Using React components to build a website for an imaginary bank",
-      "repo": "http://github.com/JOJ0/mitx-badbank",
-      "run": "",
-      "docs": "",
-      "website": "",
-      "language": "https://cdn.jsdelivr.net/npm/simple-icons@v12/icons/react.svg"
     }
   ],
   "foss": [
