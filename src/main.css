@@ -43,14 +43,24 @@
 }
 */
 
+:root {
+  --site-max-width: 1024px;
+  --site-gutter: clamp(0.75rem, 2.4vw, 1.5rem);
+}
+
 #root {
-  max-width: 1024px;
+  width: 100%;
 }
-.wrapper-head {
-  max-width: 1024px;
+
+.site-shell {
+  width: min(var(--site-max-width), calc(100% - (var(--site-gutter) * 2)));
+  min-width: min(100%, 320px);
+  margin-inline: auto;
 }
+
+.wrapper-head,
 .wrapper-main {
-  max-width: 1024px;
+  width: 100%;
 }
 
 /* My styles from original project (my.css) */

@@ -6,18 +6,14 @@ function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <>
+    <div className="site-shell">
       <div className="wrapper-head">
-        <div className="container-xs">
-          <Nav />
-        </div>
+        <Nav />
       </div>
       <div className="wrapper-main">
-        <div className="container-sm">
-          <Outlet />
-        </div>
+        <Outlet />
       </div>
-    </>
+    </div>
   )
 }
 
