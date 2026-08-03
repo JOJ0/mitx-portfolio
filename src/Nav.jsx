@@ -1,8 +1,22 @@
-import { NavLink } from 'react-router-dom'
+import { NavLink, useLocation } from 'react-router-dom'
 import logo_jt_svg from '~assets/jt_noframe_bigger02_grey80_NoBack_center.svg'
 
+const NAVBAR_TITLES = {
+  '/': 'Bio',
+  '/projects/foss': 'Projects.FOSS',
+  '/projects/exercise': 'Projects.Exercise',
+  '/projects/tool': 'Projects.Tool',
+  '/cvdev': 'CV.dev',
+  '/cvops': 'CV.ops',
+  '/cvart': 'CV.art',
+  '/about': 'Why',
+  '/contact': 'Contact',
+}
 
 function Nav() {
+  const { pathname } = useLocation()
+  const normalizedPath = pathname.replace(/\/+$/, '') || '/'
+  const currentTitle = NAVBAR_TITLES[normalizedPath] || ''
 
   return (
     <nav className="navbar navbar-expand-md navbar-light bg-light">
@@ -123,6 +137,11 @@ function Nav() {
             </li>
 
           </ul>
+          {currentTitle && (
+            <span className="navbar-page-title d-none d-md-inline-block ms-md-auto text-muted text-truncate">
+              {currentTitle}
+            </span>
+          )}
         </div>
 
       </div>

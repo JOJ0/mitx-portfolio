@@ -90,6 +90,18 @@ body {
   font-size: 1.3em;
 }
 
+.navbar-page-title {
+  letter-spacing: 2px;
+  font-size: 1rem;
+  max-width: 16rem;
+}
+
+@media (min-width: 768px) {
+  .navbar-page-title {
+    margin-left: 1.5rem;
+  }
+}
+
 h1, h2, h3, h4, h5, h6 {
   font-weight: 700;
   line-height: 1.6;
