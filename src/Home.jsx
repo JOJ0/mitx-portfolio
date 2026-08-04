@@ -42,50 +42,49 @@ function Home() {
           </p>
 
           <div className="row">
-            <div className="col-6">
+            <div className="col-12 col-md-6">
               <p className="left">
                 <span className="badge text-bg-secondary">
-                  <Link to="projects/foss">Free and Open Source Work</Link>
+                  <Link to="projects/foss">Open Source Work</Link>
                 </span>
               </p>
             </div>
+            <div className="col-12 col-md-6">
+              <p className="right">
+                <span className="badge text-bg-secondary">
+                  <Link to="cvops">Ops Experience</Link>
+                </span>
+              </p>
+            </div>
+            {/*
             <div className="col-6">
               <p className="right">
                 <span className="badge text-bg-secondary">
                   <Link to="projects/corporate">Closed source and voluntary projects</Link>
                 </span>
-
               </p>
             </div>
+            */}
           </div>
 
           <div className="row">
             <div className="col-12">
               <p className="center">
                 <span className="badge text-bg-secondary">
-                  <Link to="cvdev">Programming skill set</Link>
+                  <Link to="cvdev">Dev Skills</Link>
                 </span>
               </p>
             </div>
-          </div>
-
-          <div className="row">
-            <div className="col-6">
-              <p className="left">
-                <span className="badge text-bg-secondary">
-                  <Link to="cvops">Ops and sysadmin experience</Link>
-                </span>
-              </p>
-            </div>
+            {/*
             <div className="col-6">
               <p className="right">
                 <span className="badge text-bg-secondary">
-                  <Link to="cvart">Music and art projects</Link>
+                  <Link to="cvart">Music/Art projects</Link>
                 </span>
               </p>
             </div>
+            */}
           </div>
-
 
         </div>
       </div>
