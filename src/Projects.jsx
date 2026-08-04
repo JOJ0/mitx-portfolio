@@ -1,4 +1,5 @@
 import Page from './components/Page.jsx'
+import { PAGE_TITLES } from './constants/titles.js'
 
 function Projects() {
   const content = (
@@ -10,7 +11,7 @@ function Projects() {
   );
 
   return (
-    <Page title="Projects" content={content} />
+    <Page title={PAGE_TITLES.PROJECTS} content={content} />
   )
 }
 

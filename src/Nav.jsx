@@ -1,22 +1,12 @@
 import { NavLink, useLocation } from 'react-router-dom'
 import logo_jt_svg from '~assets/jt_noframe_bigger02_grey80_NoBack_center.svg'
-
-const NAVBAR_TITLES = {
-  '/': 'Bio',
-  '/projects/foss': 'Projects.FOSS',
-  '/projects/exercise': 'Projects.Exercise',
-  '/projects/tool': 'Projects.Tool',
-  '/cvdev': 'CV.dev',
-  '/cvops': 'CV.ops',
-  '/cvart': 'CV.art',
-  '/about': 'Why',
-  '/contact': 'Contact',
-}
+import { ROUTE_TITLES } from './constants/titles.js'
+import { PAGE_TITLES } from './constants/titles.js'
 
 function Nav() {
   const { pathname } = useLocation()
   const normalizedPath = pathname.replace(/\/+$/, '') || '/'
-  const currentTitle = NAVBAR_TITLES[normalizedPath] || ''
+  const currentTitle = ROUTE_TITLES[normalizedPath] || ''
 
   return (
     <nav className="navbar navbar-expand-md navbar-light bg-light">
@@ -46,34 +36,34 @@ function Nav() {
 
             <li className="nav-item dropdown">
               <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Projects
+              {PAGE_TITLES.PROJECTS}
               </a>
 
               <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
                 <li>
                   <NavLink className="nav-link d-md-none" to="/projects/foss">
                     <span data-bs-toggle="collapse" data-bs-target="#navbarNav">
-                      Open-source
+                      {PAGE_TITLES.PROJECTS_FOSS}
                     </span>
                   </NavLink>
                   <NavLink className="nav-link d-none d-md-block" to="/projects/foss">
-                      Open-source
-                  </NavLink>
-                  <NavLink className="nav-link d-md-none" to="/projects/exercise">
-                    <span data-bs-toggle="collapse" data-bs-target="#navbarNav">
-                      Exercise
-                    </span>
-                  </NavLink>
-                  <NavLink className="nav-link d-none d-md-block" to="/projects/exercise">
-                      Exercise
+                      {PAGE_TITLES.PROJECTS_FOSS}
                   </NavLink>
                   <NavLink className="nav-link d-md-none" to="/projects/tool">
                     <span data-bs-toggle="collapse" data-bs-target="#navbarNav">
-                      Tool
+                      {PAGE_TITLES.PROJECTS_TOOL}
                     </span>
                   </NavLink>
                   <NavLink className="nav-link d-none d-md-block" to="/projects/tool">
-                      Tool
+                      {PAGE_TITLES.PROJECTS_TOOL}
+                  </NavLink>
+                  <NavLink className="nav-link d-md-none" to="/projects/exercise">
+                    <span data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                      {PAGE_TITLES.PROJECTS_EXERCISE}
+                    </span>
+                  </NavLink>
+                  <NavLink className="nav-link d-none d-md-block" to="/projects/exercise">
+                      {PAGE_TITLES.PROJECTS_EXERCISE}
                   </NavLink>
                 </li>
               </ul>
@@ -88,27 +78,27 @@ function Nav() {
                 <li>
                   <NavLink className="nav-link d-md-none" to="/cvdev">
                     <span data-bs-toggle="collapse" data-bs-target="#navbarNav">
-                      CV.dev
+                      {PAGE_TITLES.CV_DEV}
                     </span>
                   </NavLink>
                   <NavLink className="nav-link d-none d-md-block" to="/cvdev">
-                      CV.dev
+                      {PAGE_TITLES.CV_DEV}
                   </NavLink>
                   <NavLink className="nav-link d-md-none" to="/cvops">
                     <span data-bs-toggle="collapse" data-bs-target="#navbarNav">
-                      CV.ops
+                      {PAGE_TITLES.CV_OPS}
                     </span>
                   </NavLink>
                   <NavLink className="nav-link d-none d-md-block" to="/cvops">
-                      CV.ops
+                      {PAGE_TITLES.CV_OPS}
                   </NavLink>
                   <NavLink className="nav-link d-md-none" to="/cvart">
                     <span data-bs-toggle="collapse" data-bs-target="#navbarNav">
-                      CV.art
+                      {PAGE_TITLES.CV_ART}
                     </span>
                   </NavLink>
                   <NavLink className="nav-link d-none d-md-block" to="/cvart">
-                      CV.art
+                      {PAGE_TITLES.CV_ART}
                   </NavLink>
                 </li>
               </ul>
@@ -117,22 +107,22 @@ function Nav() {
             <li className="nav-item">
               <NavLink className="nav-link d-md-none" to="/about">
                 <span data-bs-toggle="collapse" data-bs-target="#navbarNav">
-                  Why
+                  {PAGE_TITLES.ABOUT}
                 </span>
               </NavLink>
               <NavLink className="nav-link d-none d-md-block" to="/about">
-                  Why
+                  {PAGE_TITLES.ABOUT}
               </NavLink>
             </li>
 
             <li className="nav-item">
               <NavLink className="nav-link d-md-none" to="/contact">
                 <span data-bs-toggle="collapse" data-bs-target="#navbarNav">
-                  Contact
+                  {PAGE_TITLES.CONTACT}
                 </span>
               </NavLink>
               <NavLink className="nav-link d-none d-md-block" to="/contact">
-                  Contact
+                  {PAGE_TITLES.CONTACT}
               </NavLink>
             </li>
 

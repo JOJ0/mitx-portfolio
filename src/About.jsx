@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom'
 import Page from './components/Page.jsx'
+import { PAGE_TITLES } from './constants/titles.js'
 import portrait01 from '~assets/portrait.png'
 
 function About() {
@@ -25,7 +26,7 @@ function About() {
   )
 
   return (
-    <Page title="Why" subheading="is this website here?" content={content} />
+    <Page title={PAGE_TITLES.ABOUT} subheading="is this website here?" content={content} />
   )
 }
 

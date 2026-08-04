@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom'
 import Page from './components/Page.jsx';
 import { TimelineRow } from './components/TimelineRow.jsx';
+import { PAGE_TITLES } from './constants/titles.js'
 import cv from './db_cv.json';
 
 
@@ -24,7 +25,7 @@ function CvDev() {
 
 
   return (
-    <Page title="CV.dev" subheading="an alternative approach on a CV" content={content} />
+    <Page title={PAGE_TITLES.CV_DEV} subheading="an alternative approach on a CV" content={content} />
   )
 }
 

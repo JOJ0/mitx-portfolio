@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom'
 import { useState } from 'react'
 import Page from './components/Page.jsx'
+import { PAGE_TITLES } from './constants/titles.js'
 import portrait01 from '~assets/IMG_4611.jpg'
 import giface from '~assets/GIFace_08-09-2024_selected_portrait_first_wm.gif'
 
@@ -93,7 +94,7 @@ function Home() {
   )
 
   return (
-    <Page title="Bio" subheading="" content={content} />
+    <Page title={PAGE_TITLES.HOME} subheading="" content={content} />
   )
 }
 

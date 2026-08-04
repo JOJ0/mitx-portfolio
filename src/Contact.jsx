@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom'
 import Page from './components/Page.jsx'
+import { PAGE_TITLES } from './constants/titles.js'
 
 function Contact() {
   const content = (
@@ -16,7 +17,7 @@ function Contact() {
   )
 
   return (
-    <Page title="Contact" subheading="" content={content} />
+    <Page title={PAGE_TITLES.CONTACT} subheading="" content={content} />
   )
 }
 
