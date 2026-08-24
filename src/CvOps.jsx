@@ -7,7 +7,7 @@ import cv from './db_cv.json';
 
 function CvOps() {
   const rows = [];
-  for (var y=1998; y <= 2025; y++) {
+  for (var y=1998; y <= 2026; y++) {
     rows.push(<TimelineRow data={cv["ops"]} year={y} />);
   }
   const reverseRows = rows.slice().reverse();
@@ -16,13 +16,13 @@ function CvOps() {
     <>
     <div className="row">
       <p>
-      Things I've been managing over the years.
+      Systems and platforms I’ve operated or been responsible for in production.
       </p>
       <p>
-      Operating systems, "Infrastructure as Code" tools, system management
-      platforms, cloud infrastructures, .... For agile tools,
-      documentation-related services, databases and actual programming
-      languages & shells, see <Link to="/cvdev">CV.dev</Link>
+      Operating systems, virtualization, storage, monitoring, configuration
+      management and on‑prem/cloud platforms where I had operational
+      ownership. For pure development and deployment‑target tools,
+      see <Link to="/cvdev">CV.dev</Link>.
       </p>
     </div>
     {reverseRows}

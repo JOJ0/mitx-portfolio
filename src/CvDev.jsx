@@ -15,9 +15,12 @@ function CvDev() {
   const content = (
     <>
     <div className="row">
-      <p>Programming languages, frameworks, libraries and databases I've been
-      using over the years. For container-, cloud- and build-related things,
-      see <Link to="/cvops">CV.ops</Link></p>
+      <p>
+      Programming languages, frameworks, libraries, databases and
+      developer/deployment tools I've been using over the years. For
+      systems and platforms I’ve operated or been responsible for,
+      see <Link to="/cvops">CV.ops</Link>
+    </p>
     </div>
     {reverseRows}
     </>
