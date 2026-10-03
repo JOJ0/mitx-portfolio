@@ -87,25 +87,30 @@ a:hover, a:active {
 }
 
 body {
-  font-family: 'AR One Sans', sans-serif;
+  font-family: var(--font-sans);
+  /* what we had with original AR One Sans font
   letter-spacing: 0.8px;
   line-height: 1.2;
-  /*
   */
+  font-size: 1.1875rem; /* 19px */
+  letter-spacing: 0.01em;
+  line-height: 1.55;
 }
 
 .navbar-nav {
-  font-weight: 400;
-  letter-spacing: 4.0px;
-  font-size: 1.3em;
+  font-family: var(--font-mono-nav);
+  font-weight: 700;
+  font-style: italic;
+  letter-spacing: normal;
+  font-size: 1.5em;
 }
 
 .navbar-page-title {
-  font-family: 'AR One Sans', sans-serif;
+  font-family: var(--font-sans);
   font-weight: 700;
   font-style: italic;
   letter-spacing: 2.6px;
-  font-size: 2.25rem;
+  font-size: 3.85rem;
   line-height: 1.2;
   max-width: 20rem;
 }
@@ -152,14 +157,14 @@ p {
   font-weight: 700;
   line-height: 1.0;
   letter-spacing: 0px;
-  font-family: 'Spline Sans Mono';
+  font-family: var(--font-mono);
 }
 .card-title-timeline {
   font-size: 0.5em;
 }
 .card-text {
   font-size: 0.8em;
-  font-family: 'AR One Sans', sans-serif;
+  font-family: var(--font-sans);
   text-align: left;
 }
 .card-status {
