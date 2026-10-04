@@ -1,17 +1,11 @@
 import { Link } from 'react-router-dom'
 import Page from './components/Page.jsx';
-import { TimelineRow } from './components/TimelineRow.jsx';
+import { Timeline } from './components/Timeline.jsx';
 import { PAGE_TITLES } from './constants/titles.js'
 import cv from './db_cv.json';
 
 
 function CvDev() {
-  const rows = [];
-  for (var y=1994; y <= 2026; y++) {
-    rows.push(<TimelineRow data={cv["dev"]} year={y} />);
-  }
-  const reverseRows = rows.slice().reverse();
-
   const content = (
     <>
     <div className="row">
@@ -22,10 +16,9 @@ function CvDev() {
       see <Link to="/cvops">CV.ops</Link>
     </p>
     </div>
-    {reverseRows}
+    <Timeline data={cv["dev"]} from={1994} to={2026} />
     </>
   );
-
 
   return (
     <Page title={PAGE_TITLES.CV_DEV} content={content} />
