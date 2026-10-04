@@ -6,7 +6,6 @@ import projects from './db_projects.json'
 
 function ProjectsTool() {
   const title = PAGE_TITLES.PROJECTS_TOOL
-  const subheading = "Utils, helpers, unsophisticated projects"
   const content = (
     <>
     <div className="row">
@@ -19,7 +18,7 @@ function ProjectsTool() {
   );
 
   return (
-    <Page title={title} subheading={subheading} content={content} />
+    <Page title={title} content={content} />
   )
 }
 

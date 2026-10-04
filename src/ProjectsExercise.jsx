@@ -6,7 +6,6 @@ import projects from './db_projects.json'
 
 function ProjectsExercise() {
   const title = PAGE_TITLES.PROJECTS_EXERCISE;
-  const subheading = 'Fun, Experiments, Playground'
 
   const content = (
     <>
@@ -22,7 +21,7 @@ function ProjectsExercise() {
   );
 
   return (
-    <Page title={title} subheading={subheading} content={content} />
+    <Page title={title} content={content} />
   )
 }
 

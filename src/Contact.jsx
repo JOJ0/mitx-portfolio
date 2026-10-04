@@ -17,7 +17,7 @@ function Contact() {
   )
 
   return (
-    <Page title={PAGE_TITLES.CONTACT} subheading="" content={content} />
+    <Page title={PAGE_TITLES.CONTACT} content={content} />
   )
 }
 

@@ -22,3 +22,13 @@ export const ROUTE_TITLES = {
   '/about': PAGE_TITLES.ABOUT,
   '/contact': PAGE_TITLES.CONTACT,
 }
+
+export const ROUTE_SUBHEADINGS = {
+  '/projects/foss': "Open Source projects I'm involved with.",
+  '/projects/exercise': 'Fun, Experiments, Playground',
+  '/projects/tool': 'Utils, helpers, unsophisticated projects',
+  '/cvdev': 'a different take on a CV',
+  '/cvops': 'a different take on a CV',
+  '/cvart': 'a different take on a CV',
+  '/about': 'is this website here?',
+}

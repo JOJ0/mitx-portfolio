@@ -26,7 +26,7 @@ function About() {
   )
 
   return (
-    <Page title={PAGE_TITLES.ABOUT} subheading="is this website here?" content={content} />
+    <Page title={PAGE_TITLES.ABOUT} content={content} />
   )
 }
 

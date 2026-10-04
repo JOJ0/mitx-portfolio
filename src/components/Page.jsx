@@ -1,27 +1,29 @@
+import { useLocation } from 'react-router-dom'
+import { ROUTE_SUBHEADINGS } from '../constants/titles.js'
 
-function Page({title, subheading, content}) {
+function Page({title, content}) {
+
+  const { pathname } = useLocation()
+  const subheading = ROUTE_SUBHEADINGS[pathname.replace(/\/+$/, '') || '/'] || ''
 
   return (
-    <>
-      <div className="row d-md-none">
-        <div className="col">
-          <header>
-            <h1 className="font-weight-light text-muted py-3">
-              {title}
-            </h1>
-          </header>
-        </div>
-      </div>
-      {subheading && (
-        <div className="row">
-          <div className="col">
-            <p className="text-muted fst-italic mb-3">{subheading}</p>
-          </div>
-        </div>
-      )}
-      {content}
-    </>
-  )
+			<>
+				<div className="row d-md-none">
+					<div className="col">
+						<header>
+							<h1 className="font-weight-light text-muted pt-3 pb-0 mb-0 lh-1">
+								{title}
+							</h1>
+							<div className="page-subheading text-muted fst-italic mt-1 mb-3">
+								{subheading}
+							</div>
+						</header>
+					</div>
+				</div>
+				<div className="page-spacer d-none d-md-block" />
+				{content}
+			</>
+		);
 }
 
 export default Page;

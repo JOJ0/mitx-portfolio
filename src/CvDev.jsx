@@ -28,7 +28,7 @@ function CvDev() {
 
 
   return (
-    <Page title={PAGE_TITLES.CV_DEV} subheading="an alternative approach on a CV" content={content} />
+    <Page title={PAGE_TITLES.CV_DEV} content={content} />
   )
 }
 

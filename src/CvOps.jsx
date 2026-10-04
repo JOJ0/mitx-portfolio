@@ -30,7 +30,7 @@ function CvOps() {
   );
 
   return (
-    <Page title={PAGE_TITLES.CV_OPS} subheading="an alternative approach on a CV" content={content} />
+    <Page title={PAGE_TITLES.CV_OPS} content={content} />
   )
 }
 

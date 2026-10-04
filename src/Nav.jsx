@@ -1,12 +1,13 @@
 import { NavLink, useLocation } from 'react-router-dom'
 import logo_jt_svg from '~assets/jt_noframe_bigger02_grey80_NoBack_center.svg'
-import { ROUTE_TITLES } from './constants/titles.js'
+import { ROUTE_TITLES, ROUTE_SUBHEADINGS } from './constants/titles.js'
 import { PAGE_TITLES } from './constants/titles.js'
 
 function Nav() {
   const { pathname } = useLocation()
   const normalizedPath = pathname.replace(/\/+$/, '') || '/'
   const currentTitle = ROUTE_TITLES[normalizedPath] || ''
+  const currentSubheading = ROUTE_SUBHEADINGS[normalizedPath] || ''
 
   return (
     <nav className="navbar navbar-expand-md navbar-light bg-light">
@@ -128,9 +129,12 @@ function Nav() {
 
           </ul>
           {currentTitle && (
-            <span className="navbar-page-title d-none d-md-inline-block ms-md-auto text-muted text-truncate py-3">
-              {currentTitle}
-            </span>
+            <div className="navbar-page-heading d-none d-md-block ms-md-auto text-end align-self-end">
+              <div className="navbar-page-title text-muted text-truncate pt-3">
+                {currentTitle}
+              </div>
+              <div className="page-subheading text-muted fst-italic">{currentSubheading}</div>
+            </div>
           )}
         </div>
 

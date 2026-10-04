@@ -97,7 +97,7 @@ function Home() {
   )
 
   return (
-    <Page title={PAGE_TITLES.HOME} subheading="" content={content} />
+    <Page title={PAGE_TITLES.HOME} content={content} />
   )
 }
 

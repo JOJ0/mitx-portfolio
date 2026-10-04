@@ -22,7 +22,7 @@ function CvArt() {
   );
 
   return (
-    <Page title={PAGE_TITLES.CV_ART} subheading="an alternative approach on a CV" content={content} />
+    <Page title={PAGE_TITLES.CV_ART} content={content} />
   )
 }
 

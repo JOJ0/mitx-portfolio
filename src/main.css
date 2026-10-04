@@ -115,6 +115,12 @@ body {
   max-width: 20rem;
 }
 
+/* on mobile bigger h1 in the header (title) */
+header
+	h1 {
+	font-size: 2.75rem;
+}
+
 @media (min-width: 768px) {
   .navbar-page-title {
     margin-left: 1.5rem;
@@ -187,3 +193,18 @@ p {
   object-fit: cover;
 }
 
+
+.page-spacer {
+  height: calc(1lh + 1rem);
+}
+
+.page-subheading {
+  min-height: 1lh; /* reserve one line even when empty */
+  line-height: 1.2;
+}
+
+@media (min-width: 768px) {
+  .navbar {
+    padding-bottom: 0;
+  }
+}
