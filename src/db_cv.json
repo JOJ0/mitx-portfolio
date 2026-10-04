@@ -598,19 +598,44 @@
 
   "art": [
     {
-      "year": [],
-      "topic": "",
-      "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v12/icons/note.svg"
+      "year": [2007,2008],
+      "topic": "Dubstep Vienna Pioneering",
+      "icon": "/jt.svg"
     },
     {
-      "year": [],
-      "topic": "",
-      "icon": ""
+      "year": [2003,2004,2005],
+      "topic": "Big Beats",
+      "icon": "/jt.svg"
+    },
+    {
+      "year": [2011,2012],
+      "topic": "Klub Kariert",
+      "icon": "/kk_sticker_2.jpg"
+    },
+    {
+      "year": [2011,2012,2013,2014,2015,2016,2017,2018,2019,2020],
+      "topic": "Maschinenraum",
+      "icon": "/MR_LOGO_2017_280px_interpolate.png"
+    },
+    {
+      "year": [2016,2017,2018,2019,2020,2021,2022],
+      "topic": "ADHS Band",
+      "icon": "/adhs_df006_release.jpg"
+    },
+    {
+      "year": [2023,2024,2025,2026],
+      "topic": "BROKE A$$ JOE",
+      "icon": "/jt.svg"
+    },
+    {
+      "year": [2024,2025,2026],
+      "topic": "Giovanni Impossibile",
+      "icon": "/jt.svg"
+    },
+    {
+      "year": [2025,2026],
+      "topic": "Marco Monetti Wedding DJ",
+      "icon": "/jt.svg"
     }
   ]
-
-
-
-
 }
-

@@ -5,12 +5,24 @@ import cv from './db_cv.json';
 
 function CvArt() {
   const rows = [];
-  for (var y=2005; y <= 2025; y++) {
+  for (let y=2003; y <= 2026; y++) {
     rows.push(<TimelineRow data={cv["art"]} year={y} />);
   }
+  const reverseRows = rows.slice().reverse();
+
+  const content = (
+    <>
+    <div className="row">
+      <p>
+      DJing, event promotion and performance work over the years.
+    </p>
+    </div>
+    {reverseRows}
+    </>
+  );
 
   return (
-    <Page title={PAGE_TITLES.CV_ART} subheading="find an alternative approach on a CV here soon" content={rows} />
+    <Page title={PAGE_TITLES.CV_ART} subheading="an alternative approach on a CV" content={content} />
   )
 }
 
