@@ -25,10 +25,10 @@ export const ROUTE_TITLES = {
 
 export const ROUTE_SUBHEADINGS = {
   '/projects/foss': "Open Source projects I'm involved with.",
-  '/projects/exercise': 'Fun, Experiments, Playground',
+  '/projects/exercise': 'Fun, experiments, playground',
   '/projects/tool': 'Utils, helpers, unsophisticated projects',
   '/cvdev': 'a different take on a CV',
   '/cvops': 'a different take on a CV',
   '/cvart': 'a different take on a CV',
-  '/about': 'is this website here?',
+  '/about': 'this website is here',
 }
