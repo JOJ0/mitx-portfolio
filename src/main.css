@@ -208,3 +208,46 @@ p {
     padding-bottom: 0;
   }
 }
+
+/* CV art timeline */
+.art-timeline { text-align: left; }
+.art-line {
+  display: grid;
+  grid-auto-rows: minmax(2.6rem, auto);
+  gap: 4px 0;
+  margin-bottom: 1.5rem;
+  background: repeating-linear-gradient(to right, transparent 0, transparent calc(100% - 1px), rgba(0,0,0,.15) 0);
+}
+.art-year {
+  font-family: var(--font-mono);
+  font-size: .75rem;
+  font-weight: 700;
+  padding-left: 4px;
+  border-left: 1px solid rgba(0,0,0,.35);
+}
+.art-box {
+  display: flex;
+  align-items: center;
+  gap: .4rem;
+  min-width: 0;
+  margin: 0 2px;
+  padding: 3px 6px;
+  color: #fff;
+  background: var(--art-color);
+  border-radius: 6px;
+  font-size: .75rem;
+  font-weight: 700;
+  line-height: 1.1;
+  overflow: hidden;
+}
+.art-box img {
+  flex: none;
+  width: 2rem;
+  height: 2rem;
+  object-fit: cover;
+  border-radius: 4px;
+  background: #fff;
+}
+.art-box span { min-width: 0; overflow-wrap: anywhere; }
+.art-box.cont-from { margin-left: 0; border-top-left-radius: 0; border-bottom-left-radius: 0; }
+.art-box.cont-to { margin-right: 0; border-top-right-radius: 0; border-bottom-right-radius: 0; }

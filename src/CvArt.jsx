@@ -1,15 +1,9 @@
 import Page from './components/Page.jsx';
-import { TimelineRow } from './components/TimelineRow.jsx';
+import { ArtTimeline } from './components/ArtTimeline.jsx';
 import { PAGE_TITLES } from './constants/titles.js'
 import cv from './db_cv.json';
 
 function CvArt() {
-  const rows = [];
-  for (let y=2003; y <= 2026; y++) {
-    rows.push(<TimelineRow data={cv["art"]} year={y} />);
-  }
-  const reverseRows = rows.slice().reverse();
-
   const content = (
     <>
     <div className="row">
@@ -17,7 +11,7 @@ function CvArt() {
       DJing, event promotion and performance work over the years.
     </p>
     </div>
-    {reverseRows}
+    <ArtTimeline data={cv["art"]} from={2003} to={2026} />
     </>
   );
 
